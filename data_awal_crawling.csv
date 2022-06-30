@@ -1,0 +1,1443 @@
+judul,Penulis,Pembimbing 1,Pembimbing 2,Abstrak,Abstract
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"PENERAPAN ALGORITMA GREEDY PADA STRATEGI SERANG UNIT PLAYER DALAM GAME TOWER DEFENSE
+",Penulis :  Adamas Galleh Mulyawan,"Dosen Pembimbing I :  Arik Kurniawati, S.Kom., M.T.","Dosen Pembimbing II :Ari Kusumaningsih, S.T., M.T.",,
+,,,,,
+,,,,,
+,,,,,
+Gerak Pekerja Pada Game Real Time Strategy Menggunakan Finite State Machine,Penulis : Adi Chandra Laksono,"Dosen Pembimbing I : Kurniawan Eka P, S.Kom., Msc","Dosen Pembimbing II :Arik Kurniawati, S.Kom., M.T.","Gerak pekerja ada pada game yang memiliki genre RTS (Real-Time Strategy). Gerak pekerja memiliki berbagai macam gerak. Oleh sebab itu dibutuhkan sebuah pendekatan konsep AI  untuk mendesain perilaku pekerja tersebut. Perilaku karakter tersebut harus ditambahi dengan AI (Artifical intelegent) agar perilakunya menjadi lebih hidup dan realistis.
+Dalam penelitian ini AI yang digunakan adalah Finite State Machine. Finite State Machine digunakan untuk menentukan gerak pekerja terhadap parameter-parameter yang digunakan sebagai dasar gerak yang akan dilakukan . Selanjutnya akan disimulasikan pada game RTS dengan menggunakan game engine.
+Hasil yang di peroleh dalam penelitian ini adalah penerapan metode Finite State machine untuk menentukan gerak pekerja berdasarkan parameter jumlah harta, prajurit, kondisi bangunan, dan stockpile (jumlah resources yang di bawa). 
+
+Kata kunci : Game, Real-Time Strategy, Gerak Pekerja, Finite State Machine.
+","Workers' movements in the game that has no genre RTS (Real-Time Strategy). Workers' movements have a wide range of motion. Therefore, it takes an approach to designing AI concepts such worker behavior. Character traits should be supplemented with AI (Artifical intelegent) that his conduct becomes more vivid and realistic.
+In this study AI used is Finite State Machine. Finite State Machine is used to determine the movement of workers to the parameters that are used as the basis for the motion to be carried. Next will be simulated on RTS game using the game engine.
+The results obtained in this study is the application of Finite State Machine method for determining the motion parameters based on the amount of wealth workers, soldiers, the condition of the building, and the stockpile (number of resources are taken).
+
+Keywords: Games, Real-Time Strategy, Motion Workers, Finite State Machine."
+,,,,,
+,,,,,
+,,,,,
+PERBANDINGAN PENGGUNAAN GRAY LEVEL CO-OCURRENCE MATRIX  DAN GRAY LEVEL RUN LENGHT MATRIX  UNTUK PENGENALAN SENYUM,Penulis : ADIK PRAS,"Dosen Pembimbing I : Cucun Very Angkoso S.T., M.T.","Dosen Pembimbing II :Rima Tri Wahyuningrum S.T., M.T.","Senyum merupakan salah satu fitur biometrik yang dapat dijadikan sebagai bukti autentik dari seseorang. Salah satu bentuk penerapan pengenalan pola ini adalah mengetahui senyum seseorang sehingga nantinya senyum tersebut dapat dikenali oleh komputer dan disimpan dalam database. Penelitian ini bertujuan mengembangkan penelitian yang sebelumnya yaitu pengenalan pola wajah. Sistem pengenalan ini ada dua tahapan, tahap pertama menghitung ekstraksi fitur pada gambar wajah menggunakan Gray level Co-Occurrence Matrix dan Gray Level Run Lenght Matrix untuk menghasilkan pola senyum, tahap kedua menghitung jarak kemiripan menggunakan Manhattan Distance yaitu semakin rendah nilai jarak suatu citra maka semakin tinggi tingkat kemiripannya. Tugas Akhir ini melakukan uji coba pada 201 gambar foto wajah dalam basis data yang dibagi menjadi tiga kelas yaitu diam, senyum, dan tawa untuk dilakukan ekstraksi fitur menggunakan Gray Level Run leght Matrix dan Gray level Co-Occurrence Matrix, serta menghitung  jarak kemiripan menggunakan Manhattan Distance. Setelah didapat nilai hasil pengukuran jarak kemiripan terhadap ketiga kelas, nilai tersebut dirata – rata untuk mendapatkan hasil yang diinginkan. Hasil yang diperoleh memiliki kemiripan  yang cukup tinggi dengan akurasi terbaik mencapai 100% pada GLCM dan 71% pada GLRM","A smile is one of the biometric features which can be used as authentic evidence of a person. One form of this is the application of pattern recognition knowing smile the smile of someone that will be recognized by the computer and stored in a database. This research aims to develop a previous study facial pattern recognition. This recognition system there are two stages, the first stage calculates the face image feature extraction using the Gray-level Co-Occurrence Matrix and Gray Level Run Lenght Matrix to produce a smile pattern, the second stage calculates the similarity distance using Manhattan Distance is the lower the value the greater the distance of an image high degree of similarity. This final testing on 201 face images in the database are divided into three classes, namely silence, smiles, and laughter for feature extraction using Gray Level Run leght Matrix and Gray-level Co-Occurrence Matrix, as well as calculate the similarity using the Manhattan distance Distance. Having obtained the value of the similarity measurement of the distance to the third grade, the value is averaged - averaged to get the desired results. The results obtained have a high enough similarity with the best accuracy reaches 100% on GLCM and 71% in GLRM."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SEGMENTASI PEMBULUH DARAH RETINA PADA CITRA FUNDUS MENGGUNAKAN OPERASI MORFOLOGI,Penulis : AKHMAD NUVAIL,"Dosen Pembimbing I : Dr. Arif Muntasa S.Si., M.T.","Dosen Pembimbing II :Dr. Indah Agustien S.Kom., M.Kom.","Segmentasi adalah suatu proses untuk mengekstraksi atau menampilkan objek tertentu pada citra sehingga obyek tersebut terlihat lebih dominan. Pada penelitian Tugas Akhir ini  proses segmentasi menggunakan Operasi Morfologi yang diantaranya adalah Morfologi Bottom-Hat, Morfologi Dilasi, dan Morfologi Opening. Dalam penelitian ini ada dua tahapan proses segmentasi pembuluh darah retina pada citra fundus ini, yakni : tahapan Preprocessing dan tahapan Segmentasi. Untuk tahapan Preprocessing sendiri terdapat beberapa proses diantaranya : konversi citra RGB ke Green Channel agar mendapatkan komposisi saturasi yang tepat, perbaikan citra menggunakan Contrast Limited Adaptive Histogram Equalization (CLAHE) yaitu dengan meningkatkan nilai kontras pada citra Green Channel, kemudian ada proses filtering citra menggunakan 2D-Gaussian Filter yang berfungsi untuk memperjelas obyek pada citra. Untuk tahap kedua yaitu segmentasi citra yang terdiri dari beberapa proses diantaranya : Morfologi Bottom-Hat, Thresholding, Binerisasi, Adaptive Median Filter, Dilasi, Opening, dan perhitungan akurasi menggunakan Balanced Accuracy. Dari hasil uji coba yang dilakukan pada 20 citra Digital Retinal Image for Vessel Extraction (DRIVE) diperoleh hasil akhir segmentasi pembuluh darah pada retina dengan akurasi sebesar 85,97%. Operasi Morfologi terbukti dapat menghasilkan citra hasil segmentasi  yang cukup baik dengan akurasi yang tinggi.","Segmentation is a process to extract or display certain object in the image so that the object more dominan looks like. In this research segmentation process using morphology operation such as : Morphology Bottom-Hat, Morphology Dilation, and Morphology Opening. In this research there are two step to segmentation the retinal blood vessel image, processing step and segmentation step. In preprocessing step it self there are several process such as : RGB to Green Channel conversion its use to get a good saturation composition, image enhancement using Contrast Limited Adaptive Histogram Equalization (CLAHE) that is increase contrast value of the Green Channel image, and filtering image using 2D-Gaussian Filter that can make the image more clearly. For the second step that is segmentation which consist of several process such as : Morphology Bottom-Hat, Thresholding, Binaryzation, Adaptive Median Filter, Morphology Dilation, Morphology Opening, and Balanced Accuracy for . The test result that passed from the 20 fundus image, Digital Retinal Image for Vessel Extraction (DRIVE) obtain final test result segmentation blood vessel retinal image with the accuracy value 85,97%. Morphology operation are proven to produce good segmented image with high accuracy score."
+,,,,,
+,,,,,
+,,,,,
+SISTEM PERAMALAN TINGKAT PENGANGGURAN WILAYAH BANGKALAN MENGGUNAKAN ALGORITMA BACKPROPAGATION,Penulis : ALI IMRON ZAMZAMI,"Dosen Pembimbing I : Ba'in Khusnul Khotimah, S.T., M.Kom.","Dosen Pembimbing II :Firli Irhamni, S.T., M.Kom.","Kabupaten Bangkalan Mempunyai jumlah penduduk tahun 2010 sebanyak 906.761 yang diikuti dengan jumlah pengangguran yang cukup tinggi, tentunya pengangguran menjadi masalah sosial yang harus diperhatikan.  Berdasarkan permasalahan tersebut maka perlu adanya sistem peramalan sehingga bisa menekan angka pengangguran di Kabupaten Bangkalan. Sistem ini dibuat menggunakan Algoritma Backpropagation yang mampu melakukan penyesuaian bobot penghubung sehingga dapat dijadikan solusi untuk menentukan jumlah pengangguran. Jaringan-jaringan dilatih dengan menggunakan beberapa variabel masukan yaitu : data tahun 2006-2010. Setelah Sistem peramalan dengan menggunakan Algoritma Backpropagation ini melalui proses uji coba didapatkan nilai konfigurasi parameter terbaik ialah konfigurasi lerning rate sebesar 0.7 toleransi error 0.1, maksimal epoch 50 dan hidden layer 14.  Parameter tersebut dipilih menjadi parameter terbaik karena menghasilkan jumlah iterasi yang memiliki nilai akurasi error terbaik saat sistem melakukan pengujian yaitu didapatkan MSE sebesar 37206,6 dan MAPE sebesar 1,34% yang mana diperoleh jumlah pengangguran di Kabupaten Bangkalan pada tahun 2010 adalah 24.637 jiwa. Sedangkan pendataan jumlah pengangguan tahun 2010 yang dilakukan oleh BPS Kabupaten Bangakalan adalah 25008 jiwa.
+	
+Kata Kunci: Peramalan, Algoritma Backpropagation, Pengangguran.
+","Bangkalan district Having a population of 906,761 in 2010, followed by a sufficient amount of high unemployment, unemployment would be a social problem that should be noted. Based on these problems then the need to be able to press the forecasting system in the Bangkalan Regency unemployment. The system is made using Backpropagation algorithm that can handle the weight adjustment can be liaison until a solution to determine the amount of unemployment. Networks trained with some input variables such as: data 2006-2010. After forecasting system using Backpropagation algorithm is obtained by a process of trial configuration parameter value is best lerning configuration error tolerance rate of 0.7 0.1, maximum epoch 50 and 14 hidden layer. The parameters were chosen to be the best parameter for producing a number of iterations the accuracy of the best in the system error that is available for testing of MSE and MAPE 37206.6 of 1.34%, which is obtained in the Bangkalan Regency unemployment in 2010 was 24,637 souls. While collecting data in 2010 total nuisance committed by the BPS Bangakalan District  is 25008 souls.
+
+Keywords	: Forecasting, Backpropagation Algorithm, Unemployment.
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Visualisasi Proses Terjadinya Hujan Berbasis Second Life,Penulis : Anggit Pratama,"Dosen Pembimbing I : Arik Kurniawati,S.Kom, M.Kom.","Dosen Pembimbing II :Dr.Indah Agustien Siradjuddin, S.Kom, M.Kom.      ","ABSTRAK
+Perkembangan teknologi masa kini telah memungkinkan manusia untuk merasakan suatu pengalaman yang nyata tanpa perlu adanya dunia luar atau materi. Teknologi ini sering disebut teknologi virtual reality. Teknologi virtual reality dapat diterapkan di berbagai bidang salah satunya adalah didalam dunia pembelajaran. Didalam penelitian ini akan membuat suatu pembelajaran mengenai proses terjadinya hujan yang dikemas didalam simulasi virtual reality. Tujuan utama dari pengembangan virtual reality adalah untuk menirukan alam nyata ke dalam dunia maya semakin membuat kedekatan imitasi animasi realitas ke dalam dunia maya. Kehadiran teknologi virtual reality ini dimanfaatkan semaksimal mungkin dalam kehidupan sehari-hari. Didalam Penelitian ini ditetapkan perilaku yang menjadi objek adalah kegiatan proses terjadinya hujan. Kegunaan Second Life sebagai platform untuk menghidupkan konsep dalam pembelajaran proses terjadinya hujan menjadi 3 dimensi karena Second Life sangat memadai untuk memvisualisasikan sebuah bentuk 3D dan Second Life merupakan Platform yang sangat mendukung untuk membuat suatu pembelajaran. Hasil uji coba visualisasi terhadap responden mendapatkan suatu pembelajaran visualisasi proses hujan dengan cara yang berbeda dan menarik dan mudah dimengerti. 
+
+Kata kunci: Virtual Reality (VR), Multimedia Proses Hujan, Second Life 
+","The development of today's technology has allowed people to feel a real experience without the need for external or material world. This technology is often called virtual reality technology. Virtual reality technology can be applied in many fields one of which is in the world of learning. In this research will make a study on the occurrence of rain is packed inside a virtual reality simulation. The main objective of the development of virtual reality is to simulate the real world into the virtual world increasingly making animated proximity imitation of reality into the virtual world. The presence of virtual reality technology is utilized to the maximum extent possible in everyday life. In this study determined that the behavior of the object is the activity of the rain. Uses Second Life as a platform to turn the concept of the learning process into 3-dimensional rain because Second Life is very adequate to visualize the 3D shape and Second Life is an excellent platform to create a learning support. The trial results of visualization of the respondents get a learning process visualization rain in different ways and interesting and easy to understand.
+
+Keywords: Virtual Reality (VR), Multimedia Rain Process, Second Life
+ 
+"
+,,,,,
+"RANCANGBANGUNSISTEMINFORMASI
+AKADEMIKSEKOLAHBERBASIS WEB
+ (STUDIKASUS: SMK NEGERI 6 SURABAYA)",Penulis : Anton Leonard Sihombing,"Dosen Pembimbing I : Dr. Arif Muntasa, M.T","Dosen Pembimbing II :Moch. Kautsar Sophan. S.Kom., M.MT.","Pelayanan guru terhadap siswa dan kepada pihak pihak terkait (walikelas dan bidang Kurikulum) dalam pengumpulan penilaian semester dan tahunan masih bersifat manual dan lambat. Sebagai solusi yang tepat maka aplikasi web sistem akademik sekolah dibangun untuk mengatasi permasalahan yang dihadapi oleh segenap stakeholder sekolah.. Dengan adanya aplikasi website ini, pihak kurikulum,wali kelas serta guru dapat menyelesaikan waktu dalam penyerahan nilai raport kepada siswa. Dan juga tidak membatasi aktivitas guru dalam melakukan tugasnya terlebih pada saat pengumpulan nilai siswa-siswi.
+Kata kunci : website, stakeholder, sistem akademik sekolah, kurikulum ","Service teachers to the students and to the relevant parties (class guardian Curriculum) in the collection of the annual assessment and the semester is still manual and slow. As a solution, the right academic school system web applications built to overcome the problems faced by all school stakeholders . With the application of this website, the curriculum, class guardian and the teacher can complete the submission time value of report cards to students. And also do not restrict the activities of teachers in performing their duties at the time of collection value especially students. 
+
+Keywords: websites, stakeholders, academic school system, curriculum"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Sistem Pendukung Keputusan Pariwisata Unggulan di Jawa Timur Dengan Visualisasi Geografi Menggunakan Metode FAHP dan MAUT,Penulis : Ayu Imawati Yahya,Dosen Pembimbing I : Bain Khusnul Khitimah,Dosen Pembimbing II :Rima Tri Wahyuningrum,"Dinas Kebudayaan dan Pariwisata Provinsi Jawa Timur memiliki tujuan yang harus dicapai yang erat kaitannya dengan pemerataan pengetahuan masyarakat mengenai obyek-obyek wisata di seluruh Jawa Timur. Pencapaian tujuan tersebut dapat dilakukan dengan pemanfaatan sumber daya yang dimiliki secara optimal. Prosedur yang ada selama ini belum ada software penetapan obyek wisata unggulan  secara khusus. Untuk itu, perlu dibuat sebuah sistem pendukung keputusan. Salah satu metode yang cocok dalam penelitian ini adalah metode Fuzzy Anayitical Hierarchy Process (FAHP) dan Multi Attribute Utility Theory (MAUT). Metode ini mampu menyeleksi dan mencari alternatif terbaik dari sejumlah pilihan berdasarkan kriteria yang telah ditetapkan dengan mencari nilai pembobotan untuk setiap kriteria beserta perangkingannya. Selain membantu kinerja admin, juga berpengaruh terhadap masyarakat sebagai user yang bisa menggunakan sistem mengingat berwisata merupakan kebutuhan jasmani yang penting tanpa kita sadari karena dapat menghilangkan penat akibat beraktivitas seharian. Hasil penelitian ini mampu menyeleksi pariwisata unggulan dengan perangkingan obyek wisata terbaik sesuai penilaian sistem berdasarkan prioritas kriteria yang telah ditetapkan. Dari hasil uji coba sistem menunjukkan nilai akurasi dalam sistem pendukung keputusan pariwisata unggulan sebesar 80%.
+
+
+Kata Kunci: Sistem Pendukung Keputusan, Fuzzy Analitical Hirarcy Process, Multi Attribute  Utility Theory, Pariwisata Unggulan
+","Department of Culture and Tourism of the Province of East Java has a goal to be achieved is closely related to the distribution of public knowledge about the tourist resorts in the whole of East Java. Achievement of these objectives can be done with the utilization of its resources optimally. Procedures that have so far been no determination software specifically leading tourist attraction. For that, need to be made a decision support system. One suitable method in this study is the method of Fuzzy Anayitical Hierarchy Process (FAHP) and Multi-Attribute Utility Theory (DEATH). This method is able to select and search for the best alternative from a number of options based on criteria established by finding the value of the weighting for each criterion and its perangkingannya. In addition to helping the performance admin, also affects the society as a user who can use the system remembers traveled an essential bodily needs without us knowing because it can eliminate the fatigue caused by the move all day. The result is able to select the leading tourism attractions of ranking the best fit based on priority criteria scoring system that has been set. From the test results demonstrate the value of system accuracy in decision support systems leading tourism by 80%.
+
+
+Keywords: Decision Support Systems, Fuzzy Analitical Hirarcy Process, Multi Attribute Utility Theory, Leading Tourism
+"
+,,,,,
+Pengenalan Pola Mata dan Hidung untuk Penentuan Jender Menggunakan Gray Level Run Lenght Matrix,Penulis : Bagus Imansyah,"Dosen Pembimbing I : Cucun Very Angkoso, S.T., M.T","Dosen Pembimbing II :Rima Tri Wahyuningrum, S.T., M.T","Pengertian jenis kelamin adalah merupakan suatu akibat dari dimorfisme seksual. Telah dilakukan penelitian di Jepang bahwa burung gagak dapat membedakan jenis kelamin sebuah individu. Salah satu bentuk penerapan penentuan jenis kelamin (Jender) ini adalah mengetahui bentuk mata dan hidung seseorang sehingga bentuk mata dan hidung tersebut dapat dikenali oleh komputer dan disimpan dalam database. Pada penelitian Tugas Akhir terdapat dua tahapan, yaitu tahapan pertama menghitung ekstraksi fitur mata dan hidung menggunakan Gray Level Run Length Matrix untuk menghasilkan pola mata dan hidung. Tahap kedua menghitung jarak kemiripan menggunakan Euclidean Distance, yaitu semakin rendah nilai jarak suatu citra maka akan semakin tinggi tingkat kemiripannya. Penelitian Tugas Akhir ini dilakukan uji coba pada 200 gambar mata dan hidung didalam database yang akan dibagi menjadi dua kelas yaitu laki - laki dan perempuan untuk dilakukan ekstraksi fitur menggunakan Gray Level Run Length Matrix dan hasil ekstraksi fitur akan dilakukan pengukuran jarak kemiripan menggunakan metode Euclidean Distance. Setelah didapat nilai hasil pengukuran jarak kemiripan terhadap kedua kelas, nilai tersebut akan dirata – rata untuk mendapatkan hasil yang diinginkan. Dari hasil uji coba perbandingan rata – rata nilai hasil pengukuran Euclidean Distance diperoleh akurasi sebesar 75% pada 20 data uji coba dan 180 dengan jumlah citra yang ditampilkan adalah 5.","Understanding gender is a result of sexual dimorphism. Research has been conducted in Japan that crows can distinguish the sex of an individual. One form of implementation of sex determination (Gender) This form is to know one's eyes and nose so that the shape of the eyes and the nose can be recognized by the computer and stored in a database. In the final study, there are two stages, the first stage calculates the eyes and nose extracting features using Gray Level Run Length Matrix to produce the pattern of eyes and nose. The second phase calculates distances using the Euclidean Distance similarity, ie the lower the value range of an image, the higher the level of similarity. The final research trials conducted on 200 eyes and nose images in the database which will be divided into two classes: men - men and women for feature extraction using the Gray Level Run Length Matrix and feature extraction results will be measured using the Euclidean distance similarity Distance . Having obtained the value of the similarity measurement of the distance to the second class, the value will be averaged - averaged to get the desired results. Comparison of the test results mean - the average value of the results obtained Euclidean Distance measurement accuracy by 75% at 20 and 180 test data with the number of images displayed is 5."
+,,,,,
+RANCANG BANGUN APLIKASI INTRUSION PREVENTION SYSTEM PADA JARINGAN BERBASIS PROTOKOL TCP/IP MENGGUNAKAN SNORT DAN IPTABLES,Penulis : BAHRUL ULUM,"Dosen Pembimbing I : Meidya Koeshardianto, S.Si., M.T","Dosen Pembimbing II :Eza Rahmanita, S.T., M.T","Dalam setiap perusahaan tentunya memiliki data penting berkaitan dengan kegiatan bisnis mereka yang perlu dijaga dan diamankan dari orang yang tidak berhak mengaksesnya. Seringkali  muncul aksi ilegal yang mencoba merusak server bahkan sampai mencuri data perusahaan bisa mengakibatkan kesalahan fatal terhadap kelancaran kegiatan bisnis perusahaan disebabkan data yang tidak valid lagi. Menyikapi masalah tersebut, maka diperlukannya sistem monitoring keamanan yang mampu mengamankan server dari tindakan penyusupan. Intrusion Prevention System (IPS) merupakan solusi yang mampu memberikan keamanan pada jaringan server dari tindakan penyusupan. IPS ini mengembangkan Snort sebagai fungsi pendeteksi yang dikombinasikan dengan IPTables Firewall sebagai pencegah adanya penyusupan. IPS ini juga dilengkapi dengan user interface BASE (Basic Analysis and Security Engine)  dan manajemen rule sehingga memudahkan admin untuk memonitor sistem keamanan dari tindakan penyusupan ke jaringan server. Snort akan membuat alert ketika terdeteksi adanya serangan yang disimpan dalam log Snort dan memerintahkan IPTables untuk melakukan drop terhadap alamat penyerang. Kemudian detail serangan bisa dilihat pada tampilan user interface BASE. Dari hasil pengujian, didapatkan bahwa Snort dan IPTables telah bekerja dengan baik menjadi IPS yang mampu memberikan respon secara cepat ketika terdeteksi adanya serangan. Waktu tanggap rata-rata kurang dari 5 detik, dari awal serangan sampai terdeteksinya alert.","Every company has important data that relates with their business activities, it is need to be guarded and secured of people who are no right to access it. It often appears illegal action that tries to damage the server even to steal corporate data which make dangerous mistakes for the smooth operation of the company’s business because the data is not valid. Because of that, indispensable security monitoring system is created to secure the server from intrusion actions. Intrusion Prevention System (IPS) is a solution that give provide security at the network server of the act penetration. This IPS developing Snort as a function of detection, that combined with IPTables Firewall as the prevention of intrusion. IPS is also equipped with a user interface BASE (Basic Analysis and Security Engine) and rule of management that mak it easier for admin to monitor the security system of intruder action to the network server. Snort will make alert when an attack is detected is stored in the log Snort and command iptables to do drop the attacker address. Then the details of attacks can be seen in the user interface display BASE. From the test results, it was found that Snort and IPTables has worked well to IPS that can respond quickly when attacks are detected. The average response time of less than 5 seconds, from the beginning of the attack until the detection alerts."
+,,,,,
+,,,,,
+,,,,,
+SISTEM PEROLEHAN CITRA BERBASIS ISI BERDASARKAN TEKSTUR MENGGUNAKAN METODE GABOR FILTER DAN EUCLIDEAN DISTANCE,Penulis : BASIR QIYAM JULIANDI,"Dosen Pembimbing I : Dr. ARIF MUNTASA, S.Si., MT","Dosen Pembimbing II :FITRI DAMAYANTI, S.Kom., M.kom.","Saat ini pencarian citra berbasis teks sudah tidak efektif lagi karena adanya penilaian subjektif dari pengguna dalam merepresentasikan suatu citra. Karena itu diperlukan suatu sistem yang dapat menangani pencarian citra menggunakan query berupa citra atau disebut Sistem Perolehan Citra berbasis Isi (SPCI) atau Content Based Image Retrieval (CBIR). Dengan hal yang seperti ini pada CBIR meskipun ada yang memodifikasi atau merubah nama filenya, tidaklah membuat image searching menjadi rancu karena hal ini tidak didasarkan atas teks atau nama dari sebuah file melainkan berdasarkan ciri baik warna, bentuk maupun tekstur. 
+ Dalam  penelitian  Tugas Akhir ini menggunakan ciri tekstur sebagai proses pencarian kemiripan dari delapan kelas citra yang  berbeda yaitu: bangunan, bus, dinosaurus, gajah, gunung, kuda, mawar, dan pantai sebagai objek perolehan citra berbasis isi. Sistem dibangun dengan proses utamanya yaitu ekstraksi fitur tekstur dengan menggunakan metode Gabor Filter. Sehingga dari hasil ekstraksi fitur dilakukan pengukuran kemiripan dengan feature vector citra yang sudah diekstraksi terlebih dahulu yang tersimpan dalam database dengan menggunakan metode Euclidean Distance. Citra query dan citra database yang dipergunakan sebanyak 200 citra dengan delapan kelas citra didalamnya. 
+Dari uji coba aplikasi menggunakan pengukuran kemiripan Euclidean Distance dengan nilai threshold=0,02 diperoleh akurasi rata-rata presisi sebesar 0.46 pada data pelatihan 190 dan data uji coba 10 dengan ukuran kernel 3x3 dan jumlah citra yang ditampilkan sebanyak 15 citra termirip dengan citra query dan pengenalan terbaik pada kelas bangunan yaitu dengan akurasi presisi 60% .
+
+Kata Kunci: Tekstur, Sistem Perolehan Citra Berbasis Isi, Gabor Filter, Euclidean Distance.
+","Currently text-based image retrieval is no longer effective because of the subjective assessment of a user in representing an image. Therefore we need a system that can handle image search using a query image called Content-based Image Retrieval System (SPCI) or Content Based Image Retrieval (CBIR). With things like this on CBIR although there are modifying or changing the file name, it does not make image searching becomes ambiguous because it is not based on the text or the name of a file but by the characteristics of color, shape and texture.
+In this final study using texture characteristics as similarity search process images from eight different classes, namely: buildings, buses, dinosaurs, elephants, mountains, horses, roses, and beaches as content-based image acquisition object. The system was built with the main texture feature extraction using Gabor Filters. So from the results of measurements performed feature extraction feature vector similarities with the image that has been extracted beforehand stored in the database using the Euclidean Distance. Query image and database images are used as many as eight classes of 200 images with the image in it.
+Of test applications using Euclidean Distance similarity measurement threshold value = 0.02 with an average accuracy obtained a precision of 0.46 at 190 training data and test data 10 with a 3x3 kernel size and number of images are displayed as many as 15 images most similar to the query image and the best introduction to the classroom building with precision accuracy is 60%.
+	
+Keywords: Texture, Content Based Image Retrieval, Gabor Filter, Euclidean Distance. 
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+GAME EDUKASI MATEMATIKA SEKOLAH DASAR KELAS 3 DENGAN MENGGUNAKAN METODE ADAPTIVE LEARNING,Penulis : CIRA MULDAYAZIS,"Dosen Pembimbing I : ARIK KURNIAWATI,ST.,MT.","Dosen Pembimbing II :ANDHARINI DWI CAHYANI,S.Kom.,M.Kom.","Pengembangan  media pembelajaran interaktif dengan pola pendidikan game dapat meningkatkan motivasi belajar siswa. Game berbasis flash ""Game Edukasi Matematika Sekolah Dasar Kelas 3 Dengan Menggunakan Metode Adaptive Learning"" menjadi salah satu media dalam pendidikan. Dengan sistem komputerisasi, membuat belajar lebih interaktif dalam memberikan dasar matematika untuk siswa muda terutama sekolah dasar. Pada game multitasking ini pengguna dapat bermain dan belajar. Pada game ini juga bersifat adaptif yaitu dapat menyesuaikan level sesuai dengan kemampuan pengguna. Dari seluruh implementasi yang dilakukan didapatkan bahwa metode adaptive learning untuk game edukasi matematika ini berjalan dengan baik. Multitasking pada game edukasi ini membuat siswa kurang konsentrasi pada soal-soal yang ditampilkan. Siswa cenderung pada permainannya. Berdasarkan hasil uji coba yang dilakukan didapat 90,4% responden menyatakan tertarik pada game ini karena skenario game yang dibuat menarik dengan animasi dan gambar latar yang disukai anak-anak.","Development of interactive learning media education pattern games can improve students' motivation. Flash -based games ""Games Education Elementary School Mathematics 3 Grade Method Using Adaptive Learning"" to be one of the media in education. Computerized system makes learning more interactive in delivering basic math to young students, especially elementary school. In the multitasking game users can play and learn. In this game,the system can adaptively adjust its level according to the user's ability. From the testing result we found that the adaptive learning method for math educational game is success. Multitasking on this educational game makes students less focus on the questions that are displayed. Students more attacted to the game. Based on the questionnaire 90.4 % respondents interested in this game because the game created an interesting scenario with animations and background images that kids love."
+,,,,,
+,,,,,
+,,,,,
+ONTOLOGY SEMANTIC WEB UNTUK PENCARIAN TUGAS AKHIR PADA SISTEM INFORMASI TUGAS AKHIR(SIMTAK),Penulis : Daniyar Bagus Prasetya,"Dosen Pembimbing I : Firdaus Solihin S.kom,.M.kom","Dosen Pembimbing II :Kurniawan Eka P. S.kom,.M.sc","Kebutuhan pencarian data pada internet yang cepat dan tepat saat ini menjadi faktor penting para pengguna layanan internet. Sistem Informasi Tugas Akhir (SIMTAK) yang digunakan di Fakultas Teknik Universitas Trunojoyo Madura juga membutuhkan pencarian data yang tepat dan cepat berdasarkan konteks. Sistem pencarian yang dipakai saat ini adalah pencarian database dimana masih belum mampu memberikan hasil pencarian yang sesuai dengan konteks atau keywords yang diinputkan. Untuk memiliki kebenaran dalam sistem kecerdasan, pengetahuan perlu ditangkap, diproses, digunakan kembali, dan disampaikan. Ontologi mendukung semua tugas ini. Ontologi adalah spesifikasi dari konseptualisasi. Semantik web adalah sebuah abstrak representasi pada World Wide Web (WWW) yang berbasiskan pada sebuah standar yang didefinisikan menggunakan Resource Description Framework (RDF) dan Ontology Web Language (OWL) ide dasarnya adalah untuk membawa web memiliki definisi dan link data sehingga dapat digunakan lebih efektif untuk mencari, otomasi, integrasi dan reuse informasi pada berbagai aplikasi. Semantik web didefinisikan sebagai sekumpulan teknologi, dimana memungkinkan komputer memahami arti dari sebuah informasi berdasarkan metadata, yaitu informasi mengenai isi informasi seperti judul, pengarang, modifikasi tanggal pada halaman web, dan hak cipta pada halaman web. Dengan menggunakan semantik web, pencarian tugas akhir ini mampu memberikan hasil berdasarkan persamaan makna kata pada keyword yang diinputkan oleh user.
+Kata Kunci : Mesin pencari, Semantic web, Tugas akhir.
+ABSTRACT","In this time, The need for data search on the internet for quickly and accurately being important factor of internet service users. Sistem Informasi Tugas Akhir(SIMTAK) was used by Engineering faculty Trunojoyo University from Madura, need to find data most quickly and accurate too based on context. Search engine was used is database search where couldn’t able to give search result for context or keywords from users input. To have a true in intelligence system, the knowledge need to catched, processed, used and learned. Ontology was support to all these jobs. Ontology is specification of conceptualitation, Semantic web is a representation of abstract for world wide web(www) for based standart where define using Resource Description Framework(RDF) and Ontology Web Language(OWL). The based idea is to bringing web have definition and data link so gets to used more efectif to find, otomation, integrate, and reuse information for a kind application. Semantic web is define to set of technology, where possible to computer understanding the meaning of information by metadata, that’s information about contents in information like a tittle, author, modifie of date on web page, and copiryght for web page. By using semantic web, the search of this final project can gived a result based for equation of the word meaning for input keyword by users.
+Keywords: Search engine, Semantic web, Final project."
+,,,,,
+"SISTEM PENDUKUNG KEPUTUSAN REKOMENDASI MENU DIET BAGI PASIEN RAWAT INAP MENGGUNAKAN METODE HARRIS BENEDICT DAN EUCLIDEAN (Studi Kasus : RSUD Dr. H. Moh. Anwar Sumenep)
+",Penulis : Desy Mariana S. Kom,"Dosen Pembimbing I : Haryanto ST, MT","Dosen Pembimbing II :Firli Irhamni ST, M. Kom","Pelayanan makanan bagi pasien rawat inap di Rumah Sakit mempunyai tujuan untuk memberikan menu diet yang sesuai dengan syarat gizi minimal dan sesuai dengan penyakit yang diderita pasien. 
+Sampai saat ini menu yang disediakan pihak rumah sakit kurang memperhatikan kebutuhan kalori pasiennya per individu. Sehingga mengakibatkan penyediaan makanan kepada pasien tidak sesuai dengan kebutuhan kalori perhari dari pasien. Oleh karena itu dibuatlah sistem pendukung keputusan untuk rekomendasi menu diet pasien sebagai alat bantu dalam penyediaan menu makanan bagi pasien
+Metode yang digunakan yaitu metode Harris Benedict untuk perhitungan total kalori pasien dan metode Euclidean untuk perankingannya, maka diharapkan aplikasi sistem pendukung keputusan yang dibuat ini mampu untuk merekomendasikan menu diet kepada pasien beserta penjelasan mengenai kebutuhan kalori perhari untuk asupan makanan perhari dan makanan yang harus dibatasi.
+
+Kata kunci :  Sistem Pendukung Keputusan, Harris Benedict dan Euclidean
+","Food service for patients hospitalized at the Hospital has the objective to provide an appropriate diet with minimal nutritional requirements and in accordance with the patient's  illness.
+Until recently menu provided by the hospital less attention to caloric needs per individualpatient. Thus resulting in the provision of food to patients not in accordance with the needs of the patient's daily calories. Therefore made a decision support system forpatient's diet recommendations as a tool in the provision of meals for patients.
+The method used is the Harris Benedict method for the calculation of total calories for the patient and Perankingannya Euclidean method, it is expected that application ofdecision support system that made it able to recommend the diet to the patient along with an explanation of the need for daily calorie intake per day and the food should be limited.
+
+ 
+Keywords: Decision Support Systems, Harris Benedict and Euclidean
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Sistem Peramalan Penjualan Menggunakan Metode Jaringan Syaraf Tiruan Dengan Algoritma Backpropagation,Penulis : Dimas Taufany Putra,Dosen Pembimbing I : Fika Hastarita,Dosen Pembimbing II :Bain Khusnul Khotimah,"Produk Olahraga merupakan salah satu bagian penting dalam organ-organ seorang atlit. Peningkatan jumlah penjualan produk yang tidak terduga menyebabkan kesulitan dalam pelayanan yang terbaik kepada konsumen. Demikian juga sebaliknya, apabila terjadi penurunan jumlah penjualan produk,maka akan menyebabkan inventorydi gudang. Oleh karena itu diperlukan sistem peramalan yang mampu meramalkan penjualan produk pada periode berikutnya. Sistem peramalan ini menggunakan metode Jaringan Syaraf Tiruan dengan algoritma Backpropagation dengan momentum untuk meramalkan jumlah penjualan produk pada bulan berikutnya. Data yang telah tersimpan dihitung menggunakan epoh dan learning rate yang berbeda. Dari hasil uji coba system, maka dapat disimpulkan bahwa  dengan menggunakan semua data sebagai data training dan menggunakan learning rate 0.8 dan dengan epoh 18 akan menghasilkan tingkat kesalahan 56827.343. hasil ini menunjukkan hasil terbaik dari beberapa skenario ujicoba sistem, namum belum menunjukkan hasil terbaik dari skenario yang lain dengan meningkatkan epoch supaya mendapatkan hasil yang lebih baik.
+
+Kata kunci : Peramalan, Jaringan Syaraf Tiruan, Backpropagation, Momentum, Penjualan Produk Olahraga.
+","Product Sports is one important part of an athlete organs. An increasing number of product sales that caused unexpected difficulties in the best service to consumers. Vice versa, if a decline in the number of sales of the product, it will cause the inventory in the warehouse. Therefore we need a forecasting system that is able to predict product sales in the next period. The forecasting system using Artificial Neural Network with Backpropagation with momentum algorithm to predict the amount of product sales in the next month. Stored data is calculated using the epoch and the different learning rate. From the test system, it can be concluded that by using all the data as training data and using learning rate 0.8 and the epoch 18 will result in an error rate of 56827,343. The results show the best results of several scenarios testing the system, yet has not shown the best results of other scenarios with increasing epoch in order to get better results.
+
+Keywords:Forecasting, Neural Networks, Backpropagation, Momentum, Product Sales Sports..
+"
+,,,,,
+PENGEMBANGAN VIRTUAL CLASS UNTUK PEMBELAJARAN INTERAKTIF MATA PELAJARAN MATEMATIKA SISWA SMP BERBASIS SECOND LIFE,Penulis : Dwi Adi Permana,"Dosen Pembimbing I : Arik Kurniawati,S.Kom, M.Kom",Dosen Pembimbing II :Dr. Indah Aguestien S,"Internet berkembang dengan cepat beberapa tahun belakangan ini. Banyak hal yang dapat dilakukan dengan internet dari bergabung dengan situs jejaring sosial, bermain games online, belanja melalui shop online, download dan browsing info-info yang dibutuhkan. Bukan hanya itu dunia pendidikan juga ikut meramaikan dunia internet, seperti pembelajaran jarak jauh, virtual class, games pendidikan dan lain-lain. Dalam tugas akhir ini membangun aplikasi virtual class matematika untuk siswa SMP berbasis second life. Tujuan utama dari tugas akhir ini adalah untuk membuat suatu media pembelajaran dengan menerapkan teknologi yang ada yaitu, mata pelajaran yang virtual class matematika berbasis second life. Virtual Class ini dibuat secara online dengan menggunakan Second Life. Aplikasi virtual class ini terbagi dari 6 bab materi mata pelajaran matematika, khususnya untuk siswa SMP kelas VII. Didalam virtual class ini terdapat soal evaluasi untuk setiap babnya.Jika nilai evaluasi kurang dari KKM (Kriteria Kelulusan Minimal) maka siswa wajib melakukan pendalaman materi dan evaluasi ulang. Disini KKM nya menggunakan KKM mata pelajaran matematika untuk siswa VII SMP Negeri 1 Tulangan, yaitu dengan Nilai 75. Kendala dari uji coba aplikasi ini adalah kurangnya koneksi internet yang kuat, karena Aplikasi bersifat online dan memperlukan konekasi internet yang lumayan tinggi
+
+Kata Kunci :  Internet, Virtual Class, Second Life, matematika
+
+","Internet grows rapidly in recent years. Many things can be done with the Internet from joining social networking sites, playing online games, shopping through online shop, download and browse info that needed. Not only education, but also enliven the world of the Internet, such as distance learning, virtual class, educational games and others. In this final project, it will be built virtual class application of mathematics to junior high school students based on second life. The main objective of this thesis is to create a learning media by applying existing technologies, namely, the subject mathematics class-based virtual second life. Virtual Class is made online using Second Life. With this virtual math class can change the view of mathematics students who are usually considered to be a boring subject to be fun because in virtual math class is presented with a graphical display of interest such as pictures or animations that are able to meet the needs of students in learning mathematics.
+Keywords: Internet, Virtual Class, Second Life, math
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+PENJADWALAN PRODUKSI ROKOK MENGGUNAKAN METODE SHORTEST PROCESSING TIME UNTUK MENDUKUNG PENERAPAN SUPPLY CHAIN MANAGEMENT,Penulis : Erwin Andriyansyah,"Dosen Pembimbing I : Ba’in Khusnul Khotimah, ST., M.Kom.","Dosen Pembimbing II :Yeni Kustiyahningsih, S.kom., M.kom.","Dalam pola supply chain management terdapat aktivitas penjadwalan produksi. Perubahan penjadwalan pada produksi merupakan hal yang sering terjadi untuk memenuhi permintaan konsumen, Penjadwalan produksi merupakan salah satu fungsi dari pengawasan produksi yang mempunyai peranan yang cukup penting dalam  memaksimalkan pendapatan penjualan, dan meminimalkan biaya produksi, dan proses produksi akan berjalan dengan efisien. Sedangkan proses produksi berjalan dengan efisien, maka proses supply chain management mengalir dengan lancar. Permasalahan yang ada di perusahaan rokok gudang alam, tidak adanya penjadwalan produksi pada perusahaan tersebut, dan pihak sales tidak tahu kapan barang akan dikirim. Dan pihak pemesan atau agen tidak mengetahui kapan barangnya bisa diterima, sehingga proses supply chain management tidak berjalan dengan baik. Dalam penelitian ini, diadakan   pengalokasian bahan-bahan baku dan bahan-bahan pembantu, serta kelengkapan pengolahan  di setiap instalasi atau fasilitas yang telah ditentukan untuk menunjang proses supply chain berjalan dengan baik. Hasil dari penjadwalan meliputi jumlah produk yang dihasilkan dan pengolahan pada produk tersebut, terutama pada bagian yang didahulukan dalam proses produksi untuk melakukan penjadwalan produksi rokok. Yang pada pengurutannya menggunakan metode shortest processing time, menghasilkan penjadwalan produksi rokok yang meminimalisir keterlambatan sesuai dengan permintaan konsumen.
+
+Kata Kunci: Penjadwaln produksi, Shortest Processing Time, supply chain management
+","Production scheduling activity is provided in the supply chain management pattern. The change of scheduling in one of production activity is likely to happen to complete customer’s demand. Productivity scheduling is one of the function of productivity supervising that has an important role in maximizing selling profit, and minimizing production expenses, and its process is working out efficiently. Supply chain management process will be working well, if production process is working efficiently. The problem of cigarette company happens if unavailability of scheduling production occurs, so that sales party cannot confirm when the goods will be delivered. And the buyer party do not recognize when they can hand the goods, it makes SCM process is not working out well. In this research, held the allocation of raw and auxiliary materials, as well as, the completeness of processing in every installation to push the supply chain process. The results of the scheduling covers the numbers of product and how to apply the process, especially which part of it will be scheduled for the production of cigarette. The method is using shortest processing time, produces cigarette production scheduling which minimizes delay in accordance with consumer demand.
+
+Keywords: production scheduling, shortest processing time, supply chain management
+"
+,,,,,
+DETEKSI COREPOINT SIDIK JARI MENGGUNAKAN METODE GEOMETRY OF REGION TECHNIQUE (GR),Penulis : Erwina Safitri,"Dosen Pembimbing I : Dr. Indah Agustien, S.Kom., M.Kom","Dosen Pembimbing II :Fitri Damayanti, S.Kom., M.Kom","Sidik jari adalah salah satu karakteristik fisik manusia yang saat ini banyak digunakan untuk identifikasi manusia, karena sidik jari mempunyai karakteristik yang tidak dapat berubah kecuali jika luka atau rusak akibat kecelakaan. Sidik jari sangat diperlukan untuk berbagai kasus tindak kriminal, seperti pencurian, kecurangan administrasi. Sehingga adanya proses pendeteksian sidik jari dapat memudahkan pihak-pihak yang berwajib untuk menangani beberapa kasus tersebut. Proses pendeteksian ini di lakukan dalam program komputer dengan melakukan beberapa tahap perhitungan. Penentuan titik tengah atau yang biasa di kenal dengan Corepoint adalah sebuah proses awal yang sangat berperan penting dalam proses identifikasi manusia. Terdapat dua cara untuk menentukan Corepoint atau titik tengah sidik jari yaitu secara manual dan otomatis. Secara manual dapat di lakukan dengan kasat mata. sedangkan secara otomatis dapat di tentukan dengan menggunakan suatu sistem. Pada Tugas Akhir ini untuk menentukan Corepoint sidik jari secara otomatis digunakan metode Geometry Of Region Technique (GR).Citra yang digunakan pada Tugas Akhir diperoleh dari “database FVC-2002 fingerprint-bitmaps”. Hasil uji coba sistem yang terbaik untuk deteksi Corepoint sidik jari menggunakan metode Geometry Of Region Technique (GR) dengan M0=50 dan V0=50 pada proses normalisasi dan menggunakan ukuran blok 3 x 3 pixel. Hasil akurasi sistem yang didapatkan sebesar 70%.
+Kata Kunci : Sidik jari, Corepoint, Geometry Of Region Technique (GR), Normalisasi","Fingerprints are one of the physical characteristics of human that are used for human identification, because it has a characteristic that cannot be changed except when injured or damaged by accident. Fingerprints is required for variety of criminal cases, such as theft, fraud administration. So the process can facilitate the detection of a fingerprint to handle such cases. Detection process is done in a computer program to perform multiplestages of computation. Determination of the midpoint or commonly known as Corepoint is the first process which is very important in the process of human identification. There are two ways to determine the Corepoint or the midpoint of the fingerprints manually and automatically. Manually can be done with the naked eye and automatically can be set by using a system. In this final task is to determine Corepoint of the fingerprint automatically is used method Geometry of Region Technique (GR).Imagery was used in the final task which was gotten from the fingerprint database FVC-2002-bitmaps. The best observation system is obtained for the detection core point of fingerprint using the method Geometry of Region Technique M0=50 and V0=50 at normalization process and using the block dimension 3x3 pixel .The result of system accuration is gotten 70 percent.
+Keywords: Fingerprint, Corepoint, Geometry Of Region Technique (GR), Normalization"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+IMPLEMENTASI PENJADWALAN MATA PELAJARAN (Studi Kasus: SMPN 1 Konang),Penulis : FIRMAN HIDAYAT,"Dosen Pembimbing I : SIGIT SUSANTO PUTRO,S.Kom.,M.Kom.","Dosen Pembimbing II :BAIN KHUSNUL KHOTIMAH,S.T.,M.Kom.","Penjadwalan mata pelajaran di sekolah merupakan masalah yang kompleks. Dalam permasalahan tersebut terdapat beberapa variabel yang harus dipertimbangkan supaya mendapatkan jadwal yang baik. Di dalam penyusunan jadwal mata pelajaran ini terdapat sangat banyak hal yang perlu diperhatikan, serta banyak kemungkinan-kemungkinan yang selayaknya dicoba untuk menemukan penjadwalan yang terbaik. Implementasi Penjadwalan Mata Pelajaran Studi Kasus SMPN 1 Konang dibuat untuk membantu pihak sekolah dalam membuat jadwal mata pelajaran. Dalam membuat jadwal pelajaran banyak hal yang menjadi pertimbangan, misalnya mata pelajaran, hari, guru, serta waktu. Pembuatan jadwal mata pelajaran di SMPN 1 Konang masih dilakukan secara manual. Tugas Akhir ini bertujuan untuk mempermudah dan mempercepat proses membuat jadwal mata pelajaran. Untuk mencapai tujuan tersebut maka digunakan aplikasi FET time tables. Aplikasi FET time tables mempermudah dalam memasukkan data mata pelajaran, guru, ruang kelas, waktu belajar serta batasan-batasan. Dari hasil penelitian yang dilakukan menggunakan aplikasi FET Time Tables mampu membuat jadwal dengan cepat serta mampu membuat beberapa jadwal sekaligus . Semoga adanya aplikasi FET Time Tables ini diharapkan bisa mempermudah dan mempercepat dalam pembuatan penjadwalan mata pelajaran di sekolah.","Scheduling subjects in schools is a complex issue. In this problem there are several variables that must be considered in order to get a good schedule. In the preparation of the schedule of these subjects there are so many things to consider, as well as the many possibilities that should be tried to find the best scheduling. Scheduling implementation of the lesson at SMPN 1 Konang was made to help the school side for making schedules lesson. In making schedule lesson many things that become consideration, for example the lesson, days, teachers, and time. Making schedule lesson at SMPN 1 Konang still doing manually. This last assignment has goal for processing in making schedule lesson easily and fastly. To reach the goal, so used FET time tables application. FET time tables application making easy in entering the data of lesson, teacher, class room, studying time and limits. From the results of research conducted using FET time tables applications able to schedule quickly and be able to create multiple schedules at once. Hopefully the application of this FET time tables is expected to simplify and accelerate the manufacture of scheduling subjects in school."
+,,,,,
+,,,,,
+,,,,,
+IMPLEMENTASI PENJADWALAN MATA PELAJARAN SMPN 1 AMBUNTEN,Penulis : Fravasta F. Pratama,"Dosen Pembimbing I : Sigit Susanto Putro,S.Kom.,M.Kom.","Dosen Pembimbing II :Bain Khusnul Khotimah,S.T.,M.Kom.","Implementasi Penjadwalan Mata Pelajaran SMPN 1 Ambunten dibuat untuk membantu pihak sekolah bersangkutan yaitu asisten kurikulum. Asisten kurikulum dapat mengubah data dari penjadwalan mata pelajaran per-tahun, serta membuat jadwal ulangan maupun jadwal yang lain.Karena di dalam sekolah SMPN 1 Ambunten ini memungkinkan Asisten Kurikulum untuk mengubah data dari  penjadwalan, tapi masih menggunakan tabel di word ataupun excel. Sedangkan tujuan dari  Penelitian ini adalah untuk membantu mempercepat Asisten Kurikulum dalam melakukan penjadwalan. 
+Penelitian ini bertujuan untuk membantu memperlancar tugas dari asisten kurikulum SMPN 1 Ambunten untuk menggerjakan penjadwalan. Dalam menyusun penjadwalan asisten kurikulum menggunakan aplikasi aSc TimeTables, karena sebelumnya masih manual menggunakan Microsoft word dan microsoft excel. Dan dalam penelitian ini menggunakan data penerapan kurikulum yang dipakai pada tahun 2013 - 2014.
+Agar tujuan ini berhasil sesuai yang diinginkan maka digunakan aplikasi aSc TimeTables. Aplikasi aSc TimeTables memiliki kelebihan mudah dan cepat dalam memasukkan data semua mata pelajaran, kelas, ruang kelas, guru dan kontrak guru. aSc TimeTables memperhatikan beban kerja pengajar, serta memudahkan verifikasi jadwal. Dalam penerapan aplikasi banyak sekali keuntungan, seperti gampang menggenerate tinggal menunggu proses loading dari generate.
+
+Kata Kunci : Implementasi, Penjadwalan, Asc Time Table
+","Scheduling implementation of the lesson at SMPN 1 Ambunten Was made to help the school side that is curriculum assistant .Curriculum assistant can change the data form scheduling of the lesson each year, and making repeat schedule or otherschedules. Because in this school of SMPN 1 Ambunten enable curriculum assistant to change the data form scheduling, but it still using table in the word or excel. Meanwhile the goal of this last assignment (TA) is to help curriculum assistant to do schuling fastly.
+This study intends to help facilitate the task of the assistant curriculum SMPN1 Ambunten to access a scheduling. In drawing up the curriculum using the scheduling assistant TimeTables ASC application, because the manual prior to use Microsoft Word and Microsoft Excel. And in this study used data application of the curriculum used in 2013-2014.
+ An order to this goal is success fully appropriate needed so used aSc TimeTables Application.  ASc TimeTables application has strength likes easy and quick in entering the data all of the lesson, classes, classroom,teacher and the teachers contract. ASc TimeTables looking at working burden of teacher, and making easy schedule verification. In the implementation of applications many advantages, such as easy to generate just waiting for the loading process of generate.
+
+Keywords: Implementation, Scheduling, Asc Time Table
+"
+,,,,,
+DISASTER MANAGEMENT SYSTEM MENGGUNAKAN ALGORITMA GENETIKA BERBASIS ANDROID,Penulis : Hadi Wiranata Rachman,"Dosen Pembimbing I : M. Kautsar Sophan,S.Kom,M.MT","Dosen Pembimbing II :Riza Alfita, S.T, M.T","Penyusunan dan pembuatan aplikasi Disaster Management untuk Tsunami khususnya di kabupaten Lumajang dibuat untuk membantu tim penyelamat dalam proses evakuasi bencana tsunami. Dalam aplikasi yang telah dirancang tersebut, pengguna (SAR) dapat mengetahui informasi-informasi penting tentang kota Lumajang, khususnya tata letak posko-posko bencana alam yang ada dan juga dapat memberikan masukan berupa posisi SAR saat ini sehingga aplikasi dapat membentuk rute yang dapat dilewati oleh tim SAR. Tujuan dari Tugas Akhir ini adalah untuk membatu dalam memenuhi kebutuhan tim SAR dalam hal informasi rute dan tata letak posko yang ada di kota Lumajang. Agar tujuan ini berhasil dan sesuai dengan yang di inginkan maka aplikasi yang dibuat di bandingkan dengan aplikasi yang telah banyak orang kenal (Google Map). Google Map digunakan sebagai pembanding antara hasil rute yang dibentuk oleh aplikasi, dengan hasil rute yang dibentuk oleh Google Map. Dari proses pembandingan, didapatkan hasil rute yang hampir sama antara aplikasi yang dibuat dengan Google Map, akan tetapi didapatkan nilai jarak yang berbeda. Hal ini dikarenakan sistem yang dibuat menggunakan Algoritma Genetika sebagai penentu rute dan untuk perhitungan jarak menggunakan Haversine. Sedangkan Google Map menggunakan algoritma-nya sendiri dalam proses perhitungan jaraknya. Hasil dari jarak yang didapatkan oleh aplikasi, jarak tempuh dari Posko Kunir ke RSUD Lumajang berjarak 10.81 km. Sedangkan oleh Google Map didapatkan jarak sebesar 15.4 km.
+","Preparation and making application to the Tsunami Disaster Management especially in Lumajang districts created to assist rescue teams in tsunami disaster evacuation process. In the application that has been designed, the user (SAR) can find out important information about the Lumajang city, especially post-post of natural disasters and also to provide input in the form of the current SAR position so that the application can establish a route that can be bypassed by SAR team. The purpose of this final project is to petrify the SAR team needs in terms of information and layout of the existing posts in Lumajang city. In order for this goal successfully and according to the desired application is made ??in comparison with apps that have a lot of people know (Google Map). Google Map is used as a comparison between the results that was formed by the application, with the result that was formed by the Google Map. Of the benchmarking process, the result is almost the same between the applications made by Google Map, but the obtained values ??of different distances. This is because the system is made ??using Genetic Algorithm as a determinant for the calculation of the route and distance using Haversine. While Google Map using its own algorithm in the process of calculating the distance .The results of the distance obtained by the application, the distance from Kunir post to hospitals Lumajang is 10.81 miles. Whereas by Google Map distance of 15.4 km obtained"
+,,,,,
+,,,,,
+,,,,,
+RANCANG BANGUN SISTEM PERAMALAN DISTRIBUSI BERAS MENGGUNAKAN METODE EXPONENTIAL SMOOTHING,Penulis : hendra pramana putra,"Dosen Pembimbing I : fika hastarita. S.T., M.Eng","Dosen Pembimbing II :bain khusnul khotimah, S.T., M.Kom","Salah satu komponen penting yang menunjang operasi perusahaan beras adalah 
+kegiatan memprediksi jumlah beras yang dibutuhkan konsumen. Dengan prediksi 
+yang baik dapat dibuat rencana kerja perusahaan lebih efektif dan efisien.  Proses 
+pendistribusian juga harus tepat agar tidak terjadi penumpukan beras di gudang yang 
+megakibatkan kwalitas beras menurun.  Selain itu  pemasukan beras  dan distribusi 
+beras juga harus seimbang supaya terjadi keseimbangn dalam proses distribusi beras. 
+Penelitian ini  mengidentifikasi pola distribusi beras  di BULOG kabupaten 
+Pamekasan. agar  mendapatkan metode peramalan yang terbaik berdasarkan pola data 
+pendistribusian beras. Selain itu sistem yang di buat juga mampu mendapatkan hasil 
+peramalan  periode selanjutnya  sehingga dapat menjadi acuan dalam perencanaan 
+strategi pendistribusian yang  diterapkan di Bulog  Kabupaten  Pamekasan.  Dalam 
+proses pendistribusian  beras  Penentuan metode  exponential smooting  sebagai 
+peramalan yang terbaik  dengan menggunakan data sebelumnya sebagai parameter 
+masukan  dilakukan dengan  cara mengukur tingkat kesalahan  peramalan  dari 
+penerapan  metode tersebut  dan di ketahui peramalan terbaik berada di  alpha  0.1 
+dengan mengidentifikasi nilai Square Error  (SE) dan Percentage Error  (PE). Dapat 
+diketahui melalui pencarian nilai rata-rata kesalahan sebesar 3.8%, yaitu menghitung 
+Mean Square Error (MSE) dan Mean Absolute Percentage Error (MAPE). 
+ 
+ Kata kunci:  Peramalan Pendistribusian, Exponential Smoothing, Mean Error (MSE) 
+Mean Absolute Percentage Error (MAPE) ","One of urgent component that support operation of rice factory is activity of 
+predicting amount of rice that needed by the consumers. By good prediction it can be 
+made plan of works more effective and efisient. The process of distribution of rice has 
+to be in the rigt ways in order not to be accumulation of the rice in the warehouse that 
+can cause the quality of the rice dicrese. Bisede that the income and distribution of 
+rice must also be balance in order to be also balence in the disteribution of it.  In this 
+reseacch  that conducted in bulog office kabupaten  Pamekasan  has purpose to 
+identifity rice distribution system in order getting the best prediction method based on 
+data of rice distribution system and also getting result of prediction. So, it can be 
+reference in strategy of distribution planning that was applied in bulog kabupaten 
+Pamekasan. Bifore doing distribution process, rice were supplied from business 
+partner as many as six. In rice distribution process determining exponential smooting 
+method is as the bast prediction that was done by measuring error level of prediction 
+from method application through searching average error was 3.8%. By accounting 
+mean squere error (MSE) and mean absolute percentage error (MAPE).  
+ 
+Keywords:  Distributions predictions, exponential smoothing, mean square error 
+(MSE), Mean absolute percentage error (MAPE) "
+,,,,,
+"SISTEM PENDUKUNG KEPUTUSAN OPTIMASI PENJADWALAN MATAKULIAH UNTUK PENGGUNAAN RUANGAN KULIAH BERSAMA DI UNIVERSITAS TRUNOJOYO MADURA MENGGUNAKAN ALGORITMA  
+GENETIKA",Penulis : Heri Supriyanto,"Dosen Pembimbing I : Mulaab, S.Si., M.Kom","Dosen Pembimbing II :Firli Irhamni, ST., M.Kom","Penjadwalan  kuliah  di  Perguruan  Tinggi  merupakan  masalah yang  kompleks.  Dalam  permasalahan tersebut  terdapat  beberapa variabel  yang  harus  dipertimbangkan  supaya  mendapatkan  jadwal  yang 
+optimal. Di dalam penyusunan jadwal kuliah ini terdapat sangat banyak kemungkinan  yang  selayaknya  dicoba  untuk  menemukan  penjadwalan yang  terbaik.  Karena  itu  dibutuhkan  metode  optimasi  yang  dapat diterapkan  untuk  mengerjakan  penjadwalan  mata  kuliah  ini.  Metode yang  dapat  digunakan  untuk  menyelesaikan  permasalahan  tersebut adalah  dengan  menggunakan  Algoritma  Genetika.  Tugas  Akhir  ini 
+bertujuan  untuk  membuat  suatu  sistem  yang  dapat  membuat  jadwal matakuliah  secara  otomatis  dan  hasilnya  optimal.  Dari  hasil  penelitian yang  dilakukan  algoritma  genetika  mampu  membuat  jadwal  dengan 
+optimal  yang  dibuktikan  dari  nilai  fitness  yang memiliki  nilai  1  secara otomatis  jadwal  yang  dibentuk  akan  optimal.  Semoga  adanya  aplikasi ini  diharapkan  bisa  mempermudah  didalam  pembuatan  penjadwalan 
+matakuliah dengan mudah dan cepat. 
+ 
+Kata Kunci: Algoritma Genetika, Optimasi,  Penjadwalan.","Scheduling  courses  in  universities  is  a  complex  issue.  In these problems there are several variables that must be considered in order to obtain an optimal schedule. In the preparation of class schedules,  there  are  so  many  possibilities  that  should  be  tried  to 
+find the best scheduling. Therefore required optimization methods that  can  be  applied  to  work  on  scheduling  this  course.  The method  can  be  used  to  solve  these  problems  is  to  use  a  Genetic Algorithm.  Final  Project  aims  to  create  a  system  that  can automatically create a course schedule and the results are optimal. From  the  results  of  research  on  the  genetic  algorithm  is  able  to make  a  schedule  with  a  proven  optimal  fitness  value has a  value of  1  is  automatically  set  up  a  schedule  that  would  be  optimal. Hopefully  this application  is  expected  to  ease  in  making scheduling easy and fast course. 
+ 
+Keywords: Genetic Algorithms, Optimization, Scheduling."
+,,,,,
+,,,,,
+,,,,,
+"PENGENALAN TULISAN TANGAN HURUF ALFABET
+DENGAN METODE MODIFIED DIRECTION FEATURE (MDF)
+DAN LEARNING VECTOR QUANTIZATION (LVQ)",Penulis : Hilyati Safitri,"Dosen Pembimbing I : Fitri Damayanti S.Kom., M.Kom","Dosen Pembimbing II :Kurniawan Eka Permana S.Kom., M.Sc.","Pengenalan tulisan tangan merupakan topik penelitian yang sangat populer saat ini. Para peneliti telah banyak melakukan usaha-usaha untuk membuat sistem pengenalan tulisan tangan otomatis dengan berbagai teknik yang berbeda. Penelitian ini membahas pengembangan sistem pengenalan tulisan tangan offline yang menggunakan pencirian lokal dari karakter-karakter tulisan tangan. Salah satu faktor penentu dalam pengenalan tulisan tangan adalah model atau bentuk tulisan tangan dari penulis yang mampu dikenali. Tiap penulis pasti memiliki gaya menulis atau bentuk tulisan tangan yang berbeda. Metode yang digunakan untuk pengenalan pola tulisan tangan pada penelitian ini adalah Modified Direction Feature (MDF) untuk proses ekstraksi fitur dan Learning Vector Quantization (LVQ) untuk proses klasifikasi. Proses ekstraksi fitur pada metode MDF dilakukan dengan cara penentuan arah garis dan posisi  dari tiap-tiap piksel. Sedangkan untuk proses pelatihan data menggunakan  metode Learning Vector Quantization (LVQ), metode ini akan menghasilkan bobot yang akan digunakan untuk proses pengenalan citra huruf tulisan tangan. Dari uji coba yang dilakukan pada sistem, hasil terbaik untuk pengenalan citra huruf tulisan tangan diperoleh dengan jumlah data pelatihan sebanyak 260 citra dan data uji coba sebanyak 52 citra. Hasil akurasi sistem yang didapatkan sebesar 71,15 %.
+
+Kata Kunci: Tulisan Tangan, Modified Direction Feature, Learning Vector Quantization","Handwriting recognition is a very popular research topic today. Researchers have made many efforts to create a system of automatic handwriting recognition with a variety of different techniques. This study discusses the development of offline handwriting recognition system that uses a local characterization of handwritten characters. A determining factor for handwriting recognition is a model or handwritten form of the people who is able to recognize. Each people must have a style of writing or handwriting of different shapes. The methods used for pattern recognition of handwriting in this study is the Modified Direction Feature (MDF) for the process of feature extraction and Learning Vector Quantization (LVQ) for classification process. The feature extraction process performed by the MDF method of determining the direction of the line and position of each pixel. As for the training process the data using the Learning Vector Quantization (LVQ), this method will result in weight to be used for image recognition process of handwritten letters. From experiments performed on the system, the best results for image recognition handwriting letter obtained by the number of training data and the data as much as 260 images in 52 image trials. System accuracy results obtained by 71.15%.
+
+Keywords: Handwriting, Modified Direction Feature, Learning Vector Quantization"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+RANCANG BANGUN APLIKASI PEMILIHAN TEKNIK REKAYASA KEBUTUHAN MENGGUNAKAN METODE SELF ORGANIZING MAP BERBASIS EUCLIDEAN DISTANCE DAN CANBERRA DISTANCE MATRIX,Penulis : Lia Fransiska,"Dosen Pembimbing I : Firli Irhamni S.T, M.Kom","Dosen Pembimbing II :Budi Dwi Satoto S.T, M.Kom","Penyusunan Sistem Pendukung Keputusan pemilihan teknik rekayasa kebutuhan dibuat untuk membantu pengembang perangkat lunak dalam membangun sebuah proyek perangkat lunak. Pemilihan teknik rekayasa kebutuhan umumnya berdasarkan pada pilihan system dan analis yang bersangkutan daripada berdasarkan karakteristik teknik rekayasa kebutuhan yang sesuai pada proyek perangkat lunak tersebut. Untuk dapat menghasilkan perangkat lunak yang baik maka proses evaluasi dan pemilihan teknik rekayasa kebutuhan merupakan salah satu tahap yang sangat penting dalam sebuah proyek pengembangan perangkat lunak.
+	Didalam SPK ini dilakukan proses pemilihan antara teknik rekayasa kebutuhan dan kriteria atribut project yang diinginkan oleh pengembang perangkat lunak. Selanjutnya dilakukan proses clustering menggunakan metode Self Organizing Map (SOM). Parameter yang digunakan dalam adalah distance matrix karena paling tepat digunakan untuk menangani data multi dimensional. Euclidean dan Canberra adalah jenis distance matrix yang lazim digunakan karena tingkat akurasinya yang baik untuk menangani kasus data riil.
+Hasil akhir yang diperoleh yaitu membandingkan hasil clustering menggunakan metode SOM berbasis Euclidean Distance dan Canberra Distance matrix. Sehingga menghasilkan teknik rekayasa kebutuhan yang efisien, obyektif dan sesuai dengan karakteristik proyek perangkat lunak.
+Kata Kunci : Sistem Pendukung Keputusan, Teknik Rekayasa Kebutuhan, Clustering, Self Organizing Map, Canberra Distance matrix","Preparation of Decision Support System selection requirements engineering techniques designed to help software developers in building a software project. The selection of requirements engineering techniques are generally based on the selection system and the analyst is concerned rather than based on the engineering characteristics of the corresponding requirements on the software project. To be able to produce good software, the process of evaluation and selection of requirements engineering techniques is one of the most important stages in a software development project.
+DSS was performed in the selection process between requirements engineering techniques and criteria for project attributes desired by software developers. Clustering process is then performed using the Self Organizing Map (SOM). Parameters used in the distance matrix is most appropriate because the data used to handle multi-dimensional.
+The final result is to compare the results obtained using the SOM-based clustering Euclidean Distance and Canberra Distance matrix to do some testing. So that the results obtained using the SOM-based clustering is more accurate than Euclidean Distance with Distance Canberra-based SOM.
+Keyword : Decision Support Systems, Technique Requirement Engineering, Clustering, Self Organizing Map, Canberra Distance matrix
+"
+,,,,,
+Sistem Pendukung Keputusan Penerimaan Siswa Baru Menggunakan Metode AHP (Analytical Hiearchy Process),Penulis : Lucia Dwi Agustin Nilla Indra Sakti,"Dosen Pembimbing I : Fika Hastarita Rachman S.Kom., M.Eng","Dosen Pembimbing II :Andharini Dwi Cahyani S.Kom., M.Kom","Kegiatan seleksi penerimaan siswa baru di Madrasah Ibtidaiyah Negeri Model Kamal Bangkalan yang telah berjalan masih memiliki kendala, yaitu lamanya proses memilih peserta dari hasil dipertimbangkan menjadi hasil diterima. Proses ini membutuhkan ketelitian dan kehati-hatian sebab peserta yang dipilih harus berkualitas sehingga memenuhi jumlah daya tampung yang ada. Proses ini merupakan penilaian subyektif dari seorang koordinator seleksi penerimaan siswa baru yang dilakukan secara manual. Oleh karena itu untuk memudahkan dan membantu pihak sekolah dalam kegiatan pemilihan penerimaan siswa baru didalam memilih peserta dari hasil dipertimbangkan menjadi diterima sebagai siswa maka perlu dibangun sebuah sistem pendukung keputusan yang terkomputerisasi yang dapat membantu proses penerimaan siswa dengan AHP. Analytical Hirearchy Process (AHP) digunakan untuk perhitungan bobot kriteria. Dari bobot kriteria yang sudah didapat maka dilakukan proses pengurutan peserta yang akan menentukan alternatif yang optimal, yaitu peserta terbaik. Dari hasil analisa diperoleh data perangkingan yang dihasilkan dari tiga kriteria yaitu tes, jarak rumah kesekolah dan usia
+Kata kunci: Penerimaan siswa baru, SPK, AHP
+
+","The selection of new admissions in the State Government Elementary School Bangkalan Kamal model that has run still has disadvantages, namely the length of the process of selecting the participants of the results considered to be acceptable results. This process requires precision and caution because participants were selected so that the quality must meet the amount of existing capacity. This process is a subjective assessment of a new admissions coordinator selection is done manually. Therefore to facilitate and assist the school in the election of a new student activities in selecting the participants of the results are considered to be accepted as a student it is necessary to built a computerized decision support system that can help the admissions process with AHP. Hirearchy Analytical Process (AHP) is used for the calculation of the criteria weights. Of weighting the criteria that have been obtained, the participants performed the sorting process that will determine the optimal alternative, the best participants. From the analysis of the data obtained by ranking the three criteria resulting from the test, the distance between home and school age 
+Keywords: Admission of new students, Decision Support System, AHP
+"
+,,,,,
+"IMPLEMENTASI PERFORMANCE PRISM 
+UNTUK SISTEM PENGUKURAN KINERJA PERUSAHAAN",Penulis : Luhur Priyantoko Aji,"Dosen Pembimbing I : BAIN KHUSNUL KHOTIMAH, S.T., M.Kom.","Dosen Pembimbing II :Khamdi Mubarok, S.T., M.Eng.","Pengukuran kinerja adalah proses di mana organisasi menetapkan parameter hasil untuk dicapai oleh program, investasi, dan akusisi yang dilakukan. Dalam pengukuran kinerja perusahaan diperlukan indikator yang jelas sehingga bisa diketahui peningkatan atau penurunan indeks produktivitas yang menjadi tolak ukur perusahaan dalam mengukur kinerjanya. Pengukuran kinerja salah satunya diterapkan pada PT. Preshion Engineering Plastec Surabaya supaya  tetap  dapat menguasai  pasar  dan  mempertahankan  pelanggannya. Dengan menggunakan Performance Prism, metode ini mempertimbangkan semua kebutuhan dan keinginan dari semua stakeholder yang nantinya akan dijadikan dasar untuk menyusun Key Performance Indicators (KPI) kemudian KPI tersebut dibobotkan dengan ANP selanjutnya dilakukan scoring dengan Objective Matrix (OMAX) untuk mengetahui indeks produktivitas dari kinerja perusahaan. Hasil dari penelitian ini adalah dalam mengevaluasi kinerja PT Preshion Engineering Plastec Surabaya didapatkan 6 stakeholder dengan 19 subkriteria atau KPI. Dari 19 KPI tersebut, KPI Profit Growth  mendapatkan bobot normal paling tinggi yaitu 0,05307 dan KPI jumlah rapat bobotnya paling rendah yaitu 0,05262. Indeks produktivitas perusahaan pada tahun 2010 mengalami penurunan sebesar 0,29642 dari tahun 2009. Ini diakibatkan sebanyak 15 KPI pencapaiannya dibawah target. Namun untuk tahun 2011 indeks produktivitas perusahaan mengalami kenaikan dari tahun 2010 sebesar 0,420018.","Performance measurement is the process by which an organization sets the parameters for the results achieved by the program, investments, and acquisitions are done. In the measurement of company performance indicators clearly needed so they can know the increase or decrease in the productivity index benchmark in measuring the company's performance. Measuring the performance of one can be applied to the PT. Preshion Engineering PLASTEC Surabaya in order to remain able to dominate the market and retain customers. Using the Performance Prism, the method is to consider all the needs and desires of all stakeholders will be used as the basis to develop Key Performance Indicators (KPI) and KPI are weighted with ANP is then performed with Objective Scoring Matrix (OMAX) to determine the productivity index of the performance of the company . The results of this study is to evaluate the performance of PT Preshion Engineering PLASTEC Surabaya obtained six stakeholder with 19 subcriteria or KPI. Of the 19 KPI, the KPI Profit Growth highest gain normal weight is 0.05307 and the KPI number of meetings of the lowest weight is 0.05262. Productivity index in 2010 decreased by 0.29642 from 2009. This is caused by 15 KPI achievement below the target. However, for 2011 the company has increased the productivity index of the year 2010 amounted to 0.420018.
+
+"
+,,,,,
+"Sistem  Informasi Perekomendasian Beasiswa Bagi Siswa Berprestasi Menggunakan Metode Simple Additive Weighting
+(studi kasus: SMP Yayasan Pendidikan Sunan Dalem)
+",Penulis : M Agus Firmansyah,"Dosen Pembimbing I : Moch. Kautsar Sophan, S.Kom.,M.MT.","Dosen Pembimbing II :Rika Yunitarini, ST., MT ","ABSTRAK
+
+Pemilihan perekomendasian beasiswa untuk siswa terbaik secara periodik menjadi suatu proses yang lama dan rumit. Keputusan seseorang salah karena proses perekomendasian beasiswa berdasarkan nilai raport, dan nilai non akademis. Oleh karena itu diperlukan sistem pendukung keputusan untuk proses pemilihan beasiswa. Sistem pendukung keputusan ini, dapat menentukan nilai perhitungan terhadap semua kriteria. Sistem ini menggunakan metode Simple Additive Weighting (SAW). Metode ini merupakan suatu metode yang mencari penjumlahan terbobot. Pada studi kasus di sekolah Yayasan Sunan Dalem Desa Gumeno ini, terdapat 5 (lima) kriteria yaitu nilai raport, nilai Bahasa Inggris, Prestasi luar sekolah, Ekstrakulikuler dan Kepribadian, setiap alternatif (beasiswa murid) memiliki kriteria-kriteria tersebut. 
+Dalam hal menentukan Perekomendasian beasiswa terbaik dilakukan dengan cara menjumlahan bobot dari rating kinerja pada setiap alternatif untuk semua atribut. Nilai yang lebih besar akan mengindikasikan bahwa alternatif lebih terpilih. Pada kasus tersebut metode SAW ini dapat menentukan siswa terbaik berdasarkan nilai tertinggi. Dengan demikian sistem ini mampu menangani perhitungan penilaian penerimaan beasiswa terbaik di SMP Yayasan Pendidikan Sunan Dalem Desa Gumeno sehingga (misal manajer guru/kepala sekolah) tidak mengalami kesulitan dalam menentukan siapa saja siswa yang direkomdasikan oleh sistem untuk mendapatkan beasiswa dengan nilai yang terbaik.
+
+Kata kunci: Beasiswa, Simple Additive Weigting, Rapot, Prestasi","ABSTRACT
+
+Selection scholarships  recommendation to the best students periodically be a long and complicated process. One wrong decision because the process recommendation based on the value of report cards, and non-academic value. Therefore we need a decision support system for the scholarships selection process. This decision support system, can determine the value of the calculation against all criteria. This system uses the Simple Additive Weighting method (SAW). This method is a method of searching for a weighted summation. In the case study in Sunan Dalem village school Gumeno Foundation, there are 5 (five) criteria, the value of report cards, grades in English, outside of school achievement, extracurricular and personality, Each alternative (scholarship student) have these criteria.
+In terms of determining Perekomendasian best scholarship is done by enumerate weight of rating the performance of each alternative for all attributes. Larger value would indicate that the alternative is chosen. In the case of Simple Additive Weigting method can determine the best student based on the highest value. Thus the system is able to handle the assessment calculation recipients best in Sunan Dalem Gumeno junior high school education Foundation so (eg managers of teachers / principals) had no difficulty in determining who the students are recommended by the system to get a scholarship with the best value.
+
+Keywords: Scholarship, Simple Additive Weigting, rapot, Achievement
+"
+,,,,,
+"PERANCANGAN SISTEM INFORMASI PERENCANAAN PRODUKSI DAN PERSEDIAAN BAHAN BAKU TINTA MENGGUNAKAN METODE EOQ 
+(ECONOMIC ORDER QUANTITY)
+(Studi Kasus Di PT Inktech Indahmulya)
+",Penulis : M. Arif Rahman,"Dosen Pembimbing I : Yeni Kustiyahningsih, S.Kom., M.Kom.","Dosen Pembimbing II :Heri Awalul Ilhamsyah, ST., MT.","Penelitian ini membahas tentang perancangan sistem informasi perencanaan produksi dan persediaan bahan baku tinta menggunakan metode EOQ (Economic Order Quantity) di PT. Inktech Indahmulya. Selama ini dalam menjalankan rencana produksi yang ada masih menggunakan perencanaan produksi secara sederhana dan didasarkan pengalaman produksi periode-periode sebelumnya, sehingga perusahaan belum mengetahui apakah rencana produksi yang diterapkan sudah optimal. Untuk dapat menentukan jumlah persediaan barang secara tepat, diperlukan pengetahuan untuk mengetahui berapa jumlah barang yang dibutuhkan tiap periode dengan melakukan peramalan. Metode peramalan yang digunakan adalah metode single exponential smoothing dan metode single moving average, metode ini digunakan untuk melakukan peramalan kebutuhan bahan baku pada periode selanjutnya. Hasil penelitian ini mengkonfirmasikan  untuk menentukan jumlah tinta PMG yang harus diproduksi konsisten menggunakan metode peramalan single exponential smoothing dengan nilai MSE berada pada 0,1. Nilai tersebut digunakan untuk menentukan jumlah material produksi yang dibutuhkan dengan menggunakan metode Economic Order Quantity (EOQ). Dari hasil uji coba sistem ini didapatkan hasil biaya persediaan terendah dan jumlah kebutuhan bahan baku yang  diperlukan untuk periode selanjutnya.","This study discusses the design of information systems planning and the production of raw materials supplies ink using the EOQ (Economic Order Quantity) at PT. Inktech Indahmulya. So far in implementing the production plan are still using simple production planning based production experience earlier periods, so the company has yet to determine whether the plan has been applied to optimal production. In order to determine the amount of inventory in a timely, necessary knowledge to know how many items required for each period in forecasting. Forecasting methods used are single exponential smoothing method and a single moving average method, this method is used to perform forecasting raw material needs for the next period. The results of this study confirm the PMG to determine the amount of ink that have produced consistently using single exponential smoothing forecasting method with MSE is at 0.1. This value is used to determine the amount of material required production using the Economic Order Quantity (EOQ). From the test results of the system obtained the lowest inventory cost and the amount of raw materials needed for the next period."
+,,,,,
+Penerapan Regular Expression Untuk Mengelompokkan Niche Blog,Penulis : Muhammad Darul Mukhlasin,"Dosen Pembimbing I : Firdaus Solihin S.Kom., M.Kom","Dosen Pembimbing II :Bain Khusnul Khotimah S.T., M.Kom","Internet merupakan kebutuhan pokok bagi banyak orang di era informasi. Informasi yang terdapat di internet sangat banyak. Search engine merupakan sistem yang mampu melakukan pencarian dan pengambilan informasi berdasarkan kata kunci yang dimasukkan oleh pengguna. Blog merupakan salah satu penyumbang informasi yang notabene dibuat oleh para blogger. Jumlah blogger di Indonesia semakin bertambah, berbanding lurus dengan jumlah informasi di internet. Dari kondisi tersebut diperlukan mekanisme mempercepat proses pengambilan informasi dari pemilahan blog berdasarkan kategori yang telah ditentukan sebelumnya. Web crawler aplikasi yang berfungsi mengambil informasi yang diperlukan dengan cara menjelajahi halaman situs blog kemudian disimpan dalam database. Proses pengambilan halaman web dilakukan pengecekan bahasa menggunakan regular expression dan daftar stopword untuk tujuh kategori yang ditentukan berdasarkan niche blog : tips dan trik komputer, kuliner nusantara, sepak bola, petualangan indonesia, kesehatan Ibu dan anak, handphone dan gadget, fashion wanita. Niche blog adalah aktivitas blogging yang dilakukan oleh para blogger untuk membuat blog bertopik spesifik. Dengan mengaplikasikan konsep web crawler, penelitian ini mampu menentukan niche blog sesuai dengan tujuh kategori yang telah ditentukan dengan mengujikan 10 kata kunci dan daftar stopword. Dari hasil ujicoba, dapat diambil kesimpulan penggunaan 3 kunci mendapatkan hasil paling maksimal.
+Keywords: Niche Blog, Regular Expression, Web Crawler, Search Engine
+ ","ABSTRACT
+Internet is a basic requirement for many people in the information age . The information contained on the internet is very huge. Search engine is a system that is able to perform search and retrieval of information based on the keywords entered by the user . Blog is one of the contributors of information which is actually made by the blogger . The number of bloggers is increasing in Indonesia. This is directly proportional to the amount of information on the internet . This conditions needed a mechanism to accelerate the process of sorting the blog information retrieval based on a pre-determined categories . Web crawler application that serves the information they need by exploring the blog page of the site is then stored in a database . The process of making a web page to be checked using the regular expression language and stopword list for the seven categories defined by niche blog : tips and tricks of computer , culinary , soccer , adventure , mother and child health , mobile phones and gadgets , and ladies' fashion.  Niche blogs are blogging activities undertaken by the bloggers to create blogs with specific stubs . By applying the concept of web crawlers , this study was able to determine the appropriate blog niche with seven categories that have been determined by testing out of 10 keywords and a list of stopwords . From the test results , it can be concluded uses 3 keys to get the maximum results .
+.
+
+Keywords: Niche Blog, Regular Expression, Web Crawler, Search Engine
+ "
+,,,,,
+,,,,,
+SISTEM PAKAR DIAGNOSA PENYAKIT GAGAL JANTUNG MENGGUNAKAN METODE BAYESIAN NETWORK,Penulis : M. Khoirul Mahmudi,"Dosen Pembimbing I : Mula'ab, S.Si., M.Kom.","Dosen Pembimbing II :Firli Irhamni, ST., M.Kom.","Penyakit Gagal jantung adalah pembunuh nomer satu pada negara yang sedang berkembang. Seperti halnya di Indonesia dan negara-negara asia pada umumnya, di Amerika pun  penyakit jantung pernah menjadi pembunuh nomer satu. Di seluruh dunia, jumlah penderita penyakit ini terus bertambah. Ketiga  kategori penyakit ini tidak lepas  dari gaya  hidup  yang kurang sehat yang banyak dilakukan seiring dengan berubahnya pola hidup.  Faktor-faktor pemicu serangan 
+jantung  ialah  rokok,  mengonsumsi  makanan  berkolest erol  tinggi,  kurang  gerak,  malas berolahraga, stres, dan kurang istirahat.Seiring kemajuan teknologi dibuatlah sistem yang bisa mendiagnosa  penyakit-penyakit  tersebut.  Sistem  ini  yang  nanti  akan  menggantikan  pakar aslinya  dalam  penentuan diagnosa  penyakit.  Sehingga  dengan  sistem  ini  nanti   diharapkan pasien  bisa  mendapatkan  pelayanan  lebih  cepat  dan  akurat.  Sistem  pakar  ini  menggunakan 
+metode  Bayesian Network  sebagai acuannya.  Dalam metode ini menggunakan struktur gejala yang saling berkaitan untuk mendiagnosa penyakit. Struktur tersebut ditentukan oleh seorang pakar dibidang jantung. Kemudian ditentukan nilai probabilitas dari setiap gejala berdasarkan keterkaitan antara gejala. Setelah didapatkan semua baru semua nilai dibandingkan dan diambil nilai  terbaik  sebagai  hasil  diagnosa.  Dalam  pengaplikasiannya  sistem  ini  memiliki  akurasi 
+sampai lebih dari 80%.","Heart Failure Disease is the number one killer in the developing country . As in Indonesia and Asian countries in general , even of heart disease in America was once the number one killer . Around  the  world  ,  the  number  of  patients  with  this  disease  continues  to  grow  .  The  third category of this disease can’t be separated from the unhealthy lifestyle that is much in line with 
+the changing pattern of life . Factors triggering heart attacks are smoking , high cholesterol foods , less mobile , supine  exercise , stress , and lack of rest .  As technology advances made system that can diagnose these diseases . This system will be replacing the original specialists in determining the diagnosis of disease . So with this system the patient is expected to be able 
+to get service more quickly and  accurately . This expert system uses Bayesian networks as the reference method.  In this method uses the structure of inter-related symptoms to diagnose the disease. The structures were determined by a cardiac specialist. Then the probability of each value  is determined based on the relationship between  the  symptoms. After getting all new all values are compared and the best value is taken as a diagnosis. In its application of this system has an accuracy of up to more than 80 % ."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Perancangan Sistem Informasi Badan Kepegawaian Daerah ( BKD ) Bangkalan Sebagai Sub sistem dari E-Government Bangkalan Menggunakan TOGAF ADM ,Penulis : MALIKUL HAMZAH,"Dosen Pembimbing I : Moch. Kautsar Sophan, S.Kom., M.MT.","Dosen Pembimbing II :Yeni Kustiyaningsih, S.Kom., M.Kom.","Kantor Badan Kepegawaian kota Bangkalan adalah instansi pemerintahan yang bergerak di bidang pelayanan kepegawaian. Untuk meningkatkan kualitas pelayanan maka perlu adanya sebuah sistem informasi yang mampu memonitoring dan membantu proses kinerja dari dinas tersebut. Oleh karena itu dalam penelitian  ini dibahas bagaimana menerapkan  Architecture Enterprise BKD Bangkalan dengan menggunakkan metode TOGAF ADM dan mengimplementa sikannya kedalam sebuah implementasi aplikasi Enterprise yang akan dibentuk menjadi satu keterpaduan dengan  E-government Bangkalan. TOGAF ADM memiliki empat komponen utama: arsitektur bisnis, arsitektur data, arsitektur teknologi dan arsitektur aplikasi. Intinya TOGAF digunakan untuk membuat Architecture Enterprise dari semua aspek tersebut. Dalam penelitian ini akan dibahas tentang perancangan sistem arsitektur Sistem informasi BKD Bangkalan sebagai sub-sistem dari E-government Bangkalan dengan menggunakan TOGAF ADM tujuannya agar dapat menghasilkan sistem aplikasi administrasi kantor Badan Kepegawaian Daerah  Bangkalan, membuat Blue Print, serta memperbaiki efisiensi, kenyamanan, serta aksesibilitas pelayanan terhadap publik agar  lebih baik. 
+
+Kata Kunci: Arsitektur interprise, TOGAF ADM, Arsitektur bisnis, Arsitektur data, Arsitektur aplikasi, Arsitektur teknologi
+","Office of Personnel Agency is Bangkalan city government agencies engaged in the civil service. To improve the quality of service it is necessary to an information system that is able to monitor and assist in the performance of the agency. Therefore in this studydiscussed how to implement  Enterprise Architecture BKD Bangkalan  with TOGAF ADMusing this method and implement it into an Enterprise application   implementation whichwill be formed into a single alignment with the E- government Bangkalan. TOGAF ADMhas four main components: business architecture, data architecture, technologyarchitecture and application architecture. The point TOGAF Enterprise Architecture is used to make of all these aspects. In this study will be discussed about the design of  information systems architecture systems  BKD Bangkalan as sub-systems of e-government using the TOGAF ADM Bangkalan  aim to obtain an application systemadministration Bangkalan Regional Human Resources Agency office, make the Blue Print, and improve efficiency,convenience, and accessibility of services to the public for the better. 
+
+Keyword : Enterprise architecture, TOGAF ADM, business architecture, data architecture, application architecture, technology architecture
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"SISTEM INFORMASI PEMETAAN PEMILIHAN AREA LAHAN UNTUK PENGELOLAAN SUMBER AIR DENGAN METODE ELECTRE
+(Studi Kasus : Kabupaten Sumenep)",Penulis : MIFTAHOL ARIFIN,"Dosen Pembimbing I : MULA’AB, S.Si, M.Kom","Dosen Pembimbing II :FIRMAN FARID MUHSONI, S.Pi. M.Sc","ABSTRAK
+
+Kondisi keterbatasan sumber daya air di Kabupaten Sumenep saat ini dapat menjadi kendala dalam pengembangan wilayah yang nantinya berdampak pada perubahan guna lahan, peningkatan kebutuhan air sangat meningkat dikarenakan perkembangan penduduk dan kegiatan sosial-ekonomi yang bermunculan dan berkembang pesat pasca selesainya proyek pembangunan jembatan Suramadu. Atas dasar tersebut, maka penelitian ini perlu dilakukan untuk memilih lahan yang ada sehingga nantinya dapat digunakan untuk pengelolaan sumber air. Penelitian ini bertujuan untuk menentukan pemilihan area paling sesuai untuk menetapkan lahan guna kepentingan pengelolaan sumber air. Metode yang digunakan dalam penelitian ini adalah metode electre, yang mana metode ini merupakan metode pengambilan keputusan yang nantinya di implementasikan kedalam sistem informasi berbasis website sehingga dalam penggunaannya menjadi lebih mudah untuk dipahami dan di operasikan. Dalam sistem informasi tersebut dilengkapi penggunaan google maps sehingga dapat lebih mempermudah user dalam mendapatkan info dari sebuah area lahan yang diseleksi.
+
+Kata Kunci : electre, lahan, sistem informasi, google maps.
+","ABSTRACT
+
+Conditions of limited water resources in Sumenep today can be an obstacle in the development of the area that will have an impact on land use changes, an increase in water demand will be greatly increased due to population growth and socio-economic activities that have emerged and developed rapidly after the completion of the longest bridge construction project. On this basis, this research needs to be done to choose the existing land that can later be used for the management of water resources. This study aims to determine the selection of the most suitable areas to establish land for the purpose of water resources management. The method used in this study is the ELECTRE method, which this method is a method of decision making that will be implemented into a web-based information systems in its use so that it becomes easier to understand and to operate. In the information system fitted using google maps so it can better facilitate users in getting the info from a selected area of land. 
+
+Keywords: ELECTRE, land, information systems, google maps."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+ANALISIS PERAMALAN PENJUALAN PRODUK ASESORIS KOMPUTER MENGGUNAKAN METODE EXPONENTIAL SMOOTHING (ES) DAN ORDINARY LEAST SQUARE (OLS),Penulis : Moh. Hasbi Ash Shiddieqy,"Dosen Pembimbing I : Mula’ab, S.Si., M.Kom.","Dosen Pembimbing II :Yeni Kustiyahningsih, S.Kom., M.Kom.","Dengan prediksi yang baik, dapat dibuat rencana kerja perusahaan lebih efektif dan efisien. Semakin banyak orang menggunakan Komputer  maka jumlah permintaan konsumen pada Asesoris komputer secara otomatis penjualannya juga akan meningkat. Oleh karena itu dibutuhkan sistem yang dapat memprediksi jumlah penjualan tiap minggunya agar perusahaan mendapatkan keuntungan yang maksimal. Untuk meramalkan pejualan Asesoris komputer Digunakanlah metode peramalan Single Exponential Smoothing (SES) dan metode Oldinary Least Square (OLS). Hasil peramalan tersebut akan dihitung  dan dibandingkan menggunakan Mean Square Error (MSE) untuk mendapatkan hasil error yang terkecil dan peramalan terbaik. Dari beberapa hasil tes perhitungan peramalan yang telah dilakukan dapat diambil kesimpulan bahwa proses peramalan penjualan asesoris komputer menggunakan metode Single Exponential Smoothing (SES) dan Oldinary Least Square (OLS) cukup baik diterapkan untuk studi kasus di SKY DISK Surabaya. Dengan mendapatkan rata-rata MSE sebesar 5257.5 dan rata-rata MAPE sebesar 0.9463%.","With a good prediction, the work plan can be made more effective and efficient company. More and more people using Computer then the number of consumer demand on the computer automatically Accessories sales also increased. Therefore needed a system that can predict the number of weekly sales for the company to get the maximum benefit. To predict turnover forecasting methods are used computer Accessories Single Exponential Smoothing (SES) and the Least Square method Oldinary (OLS). Forecasting results will be calculated and compared using the Mean Square Error (MSE) to get the smallest error and the best forecasting. Calculations of some test results of forecasting has been done can be concluded that the process of forecasting sales of computer accessories using the Single Exponential Smoothing (SES) and Oldinary Least Square (OLS) is best applied to a case study in Surabaya SKY DISK. With an average MSE of 5257.5 and an average MAPE of 0.9463%"
+,,,,,
+,,,,,
+,,,,,
+SISTEM PENENTU CALON PENERIMA BEASISWA IKSASS RAYON BANGKALAN MENGGUNAKAN METODE SMARTER DAN FORWARD CHAINING,Penulis : Moh Rudi,"Dosen Pembimbing I : Achmad Ubaidillah, Ms.,S.T.,M.T","Dosen Pembimbing II :Fika Hastarita Rachman, S.T., M.Eng","Beasiswa  indentik  dengan  penghargaan yang  diberikan  kepada  pelajar/santri  berprestasi dalam  studi  yang  ditempuhnya.  IKSASS dalam  menumbuhkan  dan  meningkatkan semangat  santri  untuk  berprestasi dilakukan  dengan  memberikan  penghargaan  berupa  beasiswa  tiap  semester. Proses  seleksi  calon penerima beasiswa di Ikatan Santri Alumni Salafiyah Syafiiyah (IKSASS) Rayon Kabupaten Bangkalan dilengkapi  dengan  berbagai  kriteria. Seperti ekonomi keluarga, tanggungan keluarga, status orang tua dan lain-lain. Hal tersebut perlu  diperhatikan  dalam  perhitungan  penilaian  terhadap  kriteria  dan harus benar-benar relevan karena pada dasarnya akan berpengaruh pada hasil akhirnya. Dengan menggunakan Sistem Pendukung keputusan, calon penerima beasiswa menggunakan metode SMARTER inferensi Forward Chaining yang akan dibuat, hasil yang  didapat  telah  memenuhi  kriteria  yang  diinginkan  pihak IKSASS. Selain itu penggunaaan Forward Chaining efektif digunakan untuk mengantisipasi kesamaan hasil perankingan. Sehingga proses seleksi calon penerima beasiswa IKSASS rayon bangkalan tepat sasaran.
+
+Kata kunci : sistem pendukung keputusan, Simple Multi-Atribute Rating  Technique Exploiting Rank (SMARTER), Forward Chaining.
+","Decision support systems are part of a computer-based information system used to support decision making within an organization or company. Scholarships is identic with the award given to the students that excellent in their study. IKSASS have initiate to improve the spirit of students to achievement is by giving awards a scholarship for each semester. The process of selection of scholarship recipients at the ""Ikatan Santri Alumni Salafiyah Syafiiyah (IKSASS)"" Bangkalan region is be equipped with many criteria. Such as family income, dependents, status of parents and others. With decision support system using the SMARTER Inferensi Forward Chaining to be made, the results have met the desired criteria IKSASS. Besides the use of Forward Chaining effectively used to anticipate similarity assessment. 
+
+Keywords: decision support systems, Simple Multi-Atribute Rating  Technique Exploiting Rank (SMARTER), Forward Chaining.
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+EKSTRAKSI FITUR BERBASIS TWO DIMENSIONAL LINEAR DISCRIMINANT ANALYSIS  UNTUK PENGENALAN WAJAH,Penulis : Muhammad Choirur Rozi,"Dosen Pembimbing I : Dr. Arif Muntasa, S.Si.,M.T","Dosen Pembimbing II :Fitri Damayanti, S.Kom.,M.kom","Sistem pengenalan wajah adalah suatu sistem untuk mengenali identitas diri dari seseorang melalui wajah manusia. Teknologi ini mengidentifikasi bagian tubuh manusia yang unik dan tetap seperti wajah manusia. Hal khusus di bidang identifikasi dan pengenalan wajah manusia memanfaatkan pengolahan dan juga analisis citra wajah, yang akan berperan penting dalam proses pengenalan wajah manusia. Sistem ini dapat di manfaatkan dalam suatu sistem keamanan di bidang biometrika. Pada penelitian ini telah di bangun suatu perangkat lunak pengenalan citra wajah manusia menggunakan metode Two Dimensional Linear Discriminant Analysis (2DLDA) untuk menentukan karakteristik dari wajah manusia. Sedangkan pada tahap pengklasifikasian digunakan metode Angular Separation untuk mengukur kemiripan antara data pelatihan (training) dan data uji coba (testing). Melalui proses testing gambar wajah ini dapat di ketahui identitas diri dari seseorang. Dari uji coba aplikasi menggunakan klasifikasi Angular Separation di peroleh akurasi pengenalan benar sebesar  94.5%, pada  lima pose citra wajah pelatihan  dan lima pose citra wajah uji coba (testing) dengan jumlah data masing - masing dua ratus citra wajah manusia yang di ambil dari database ORL dengan menggunakan sepuluh eigen.
+
+Kata kunci : Sistem pengenalan wajah, Two Dimensional Linear Discriminant Analysis, Angular Separation.
+","Face recognition system is a system to recognize the identity of a person with a human face. This technology identifies the unique human body parts and remains like a human face. It specialized in the identification and recognition of human face processing and utilizing facial image analysis, which will play an important role in the process of human face recognition. This system can be utilized within a security system in the field of biometrics. In this study has built a software image of human face recognition using the Two Dimensional Linear Discriminant Analysis (2DLDA) to determine the characteristics of a human face. While on stage classification method used to measure the similarity of the angular separation between the training data (training) and the data of testing (testing). Through the process of testing facial image can be in the know of a person's identity. Of a pilot application using Angular Separation classification recognition accuracy obtained was 94.5%, in five poses of training face images and five-pose face images of testing (testing) with the amount of data each - each two hundred images of human faces taken from the ORL database using ten eigenvalues.
+Key words : Face recognition system, Two Dimensional Linear Discriminant Analysis,  Angular Separation.
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SISTEM PERAMALAN PENJUALAN OBAT MENGGUNAKAN METODE JST ALGORITMA BACKPROPAGATION DENGAN INISIALISASI BOBOT AWAL  NGUYEN WIDROW,Penulis : Naimah,"Dosen Pembimbing I : Bain Khusnul Khotimah,ST.,M.Kom.","Dosen Pembimbing II :Haryanto, S.T., M.T.","ABSTRAK
+Obat merupakan salah satu kebutuhan penting dalam rumah sakit. Selama ini, kebutuhan pengumpulan data obat adalah masalah yang sering dihadapi oleh Farmasi yang memiliki kewenangan dalam pengadaan obat-obatan di rumah sakit Syarifah Ambami Rato Ebu Kabupaten Bangkalan. Dalam rangka menjamin ketersediaan obat perlu untuk mempersiapkan kebutuhan obat sesuai dengan jumlah yang dibutuhkan. Dalam rangka memenuhi tingkat kebutuhan obat tersebut,  perlu untuk meramalkan masa depan terkait jumlah ketersediaan obat yang dibutuhkan dengan menggunakan data sebelumnya.Data tersebut digunakan  bertujuan untuk menentukan nilai kesalahan dan keakuratan pelatihan dari metode yang digunakan. Dalam penelitian ini, metode yang akan digunakan untuk memprediksi kebutuhan obat adalah Jaringan Syaraf Tiruan menggunakan algoritma Backpropagation dengan inisialisasi bobot awal Nguyen Widrow. Dengan penambahan metode Nguyen Widrow ini, sistem mampu memecahkan masalah yang terjadi dalam Backpropagation standar yang lambat untuk mencapai konvergensi. Dari pengujian yang dilakukan dengan 3 Skenario yaitu perubahan Epoch, Learning rate dan Momentum, serta perubahan Jumlah input layer dan Hidden layer  pada nama obat ACLAM 500 MG KAPLET/BTL 1 didapatkan hasil parameter terbaik untuk melakukan peramalan yaitu dengan jumlah epoch 30 nilai Learning Rate 0.9 dan Momentum 0.8 serta jumlah input layer 4 dan Hidden layer 4 yang menghasilkan MSE (Mean Seaquare Error) 0, 003.
+
+Kata Kunci: Peramalan, Jaringan Syaraf Tiruan, Backpropagation, Nguyen Widrow, kebutuhan obat.
+","ABSTRACT
+Medicine is one of the important needs in the hospital. During this time, the needs of drug data collection is a common problem faced by the Pharmacy which has authority in the procurement of medicines in hospital of Syarifah Ambami Rato Ebu Bangkalan. In order to guarantee the availability of the drug need to prepare for the needs of the drug according to the amount needed. In order to meet the level of need for the drug, it is necessary to predict the future availability of relevant amount of drug required to use the data that is used.Data aimed to determine the value of the training error and the accuracy of the method used. In this study, the method to be used to predict the need for drugs is an Artificial Neural Network using Backpropagation algorithm with initial weight Nguyen Widrow initialization. With the addition of Nguyen Widrow this method, the system is able to solve problems that occur in the standard Backpropagation slow to reach convergence. From the tests performed with 3 scenarios that changes Epoch, learning rate and momentum, as well as changes in the input layer and the number of layers in the name of the drug Hidden ACLAM 500 MG caplet / BTL 1 showed the best parameter for forecasting the value of the number of epochs 30 0.9 Learning Rate and Momentum 0.8 and the number of input layer 4 and layer 4 are generating Hidden MSE(MeanSeaquareError) 0,003.
+Keywords: Forecasting, Neural Networks, Backpropagation, Nguyen Widrow, needs medication.
+
+
+
+"
+"SISTEM PEROLEHAN CITRA BERBASIS ISI MENGGUNAKAN
+GRAY LEVEL DIFFERENCE METHOD BERDASARKAN
+CIRI TEKSTUR PADA POLA BATIK
+",Penulis : Nansy Lovitasari,"Dosen Pembimbing I : Fitri Damayanti, S.Kom., M.Kom","Dosen Pembimbing II :Rima Tri Wahyuningrum, S.T., M.T","Batik adalah kerajinan yang memiliki nilai seni tinggi dan telah menjadi bagian dari budaya Indonesia sejak lama. Batik di Indonesia mempunyai beragam jenis tekstur batik, warna batik, dan pola batik yang mencerminkan asal usul daerah dari batik tersebut. Saat ini pencarian citra berbasis teks sudah tidak efektif lagi karena adanya penilaian subjektif dari pengguna dalam merepresentasikan suatu citra. Karena itu diperlukan suatu sistem yang dapat menangani pencarian citra menggunakan query berupa citra atau disebut Sistem Perolehan Citra berbasis Isi (SPCI) atau Content Based Image Retrieval (CBIR). Penelitian  ini menggunakan ciri tekstur sebagai proses pencarian kemiripan dari delapan kelas citra batik yang  berbeda yaitu: Cirebon, Bali, Bangkalan, Pamekasan, Sumenep, Yogyakarta, Solo, dan Pekalongan sebagai objek perolehan citra berbasis isi. Sistem dibangun dengan proses utamanya yaitu ekstraksi fitur tekstur dengan menggunakan metode Gray Level Difference Method (GLDM) menggunakan empat arah utama. GLDM menghitung perbedaan mutlak antara sepasang derajat keabuan yang terpisah oleh jarak dan arah tertentu. Hasil ekstraksi fitur dilakukan pengukuran jarak kemiripan menggunakan metode Euclidean Distance. Dari uji coba aplikasi menggunakan pengukuran kemiripan Euclidean Distance dengan nilai threshold=7 diperoleh akurasi presisi sebesar  61%  pada data pelatihan 168 dan data uji coba 32 dengan 10 citra yang ditampilkan. ","Batik is a craft that has high artistic value and has become part of the culture of Indonesia for a long time. Batik in Indonesia has a wide range of batik texture, color batik and batik patterns. Current text-based image search is no longer effective because of the subjective assessment of the user in representing an image. What is needed a system that can handle image search using the query form or image of the so-called Content-based Image Acquisition System or Content Based Image Retrieval. This study using texture features as similarity search process of batik images of eight different classes, namely: Cirebon, Bali, Jakarta, Pamekasan, Sumenep, Yogyakarta, Solo, and Pekalongan as content-based image acquisition objects. The system is built with the main process is the extraction of texture features using the Gray Level Difference Method using the four cardinal directions. The results of feature extraction will be measured using the method of Euclidean distance similarity Distance. Of a pilot application using Euclidean Distance similarity measurement threshold = 7 with the value obtained by 61% precision accuracy on 168 training data and trial data 32 by the number of displayed image 10."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Pengenalan Tulisan Tangan Carakan Jawa Secara Real Time  Dengan Menggunakan Dominant Point,Penulis : Nining Latifah,"Dosen Pembimbing I : Fitri Damayanti, S.Kom., M.Kom","Dosen Pembimbing II :Rima Tri Wahyuningrum, ST, MT","Pengenalan tulisan tangan adalah salah satu cabang dari pengenalan pola. Carakan merupakan tulisan yang cukup kompleks dan memiliki karakteristik yang lebih unik dibandingkan dengan tulisan latin, apalagi bila ditulis dengan tulisan tangan. Faktor yang menyebabkan proses pengenalan tulisan carakan sulit untuk dilakukan adalah variasi bentuk tulisan carakan dan memiliki kemiripan antar huruf. Hal ini memungkinkan adanya kesalahan dalam proses klasifikasi. Pada penelitian ini dibangun sistem pengenalan tulisan tangan secara real time dimana proses ekstraksi ciri menggunakan metode Dominant Point untuk mendapatkan ciri pada setiap karakter masukan. Metode ini pada dasarnya sistem akan membaca arah goresan pena yang didasarkan pada kumpulan titik. Pada proses klasifikasi serta pengenalan karakter menggunakan Fine Classification. Pada proses ini, pengenalan dilakukan dengan tiga tahap yaitu penilaian prakandidat, menyeleksi kandidat, lalu pencocokan karakter. Proses ini yang membuat sistem dengan cepat melakukan proses pengenalan. Dari uji coba yang dilakukan pada sistem, hasil terbaik untuk pengenalan citra huruf tulisan tangan carakan diperoleh dari data pelatihan sebanyak 600 citra pada data uji coba skenario ke 3 dengan akurasi sebesar 90%. Sedangkan hasil terendah diperoleh dari data pelatihan sebanyak 200 citra pada data uji coba skenario ke 1 dengan akurasi sebesar 40%. Hasil akurasi rata-rata dari sembilan skenario adalah sebesar 67,67%.
+
+Kata kunci: Handwriting Recognition, Carakan, Dominant Point,  Fine Classification.","Handwriting Recognition  is branch of  Pattern Recognition. Carakan represent characteristic which complex enough and have more compared to unique characteristic of Latin article, more than anything else when written with handwriting. Factor causing process recognition of article carakan difficult to be conducted by is variation of form article of carakan and have looking like between letter. This matter enable the existence of mistake in course of classification. A research is woke up by system recognition of handwriting by real time where process of ekstraksi characteristic use method of Dominant Point to get characteristic of each character of inputan. This method basically system will read relied on pen incision movement direction is dots of local curve extrema or of Dominant Point. Method used for classification also represent important factor utilize to obtain;get good accuration storey;level. As for a classification process and also recognition of character use Fine classification. This  process, recognition conducted by 3 phase that is assessment of candidate pre, select candidate, last of adaptation of character / maching. This process make system swiftly conducted identification testing in system, best result for the recognition of handwriting letter image of carakan obtained from training data counted 600 image [at] data test-drive scenario to 3 recognized with accuration equal to 90%. While result of terendah obtained from training data counted 600 image [at] data test-drive scenario to 1 recognized with accuration equal to 40%. Result of mean accuration from 9 scenario got equal to 67,67%. 
+
+Keyword - Handwriting Recognition, Carakan, Dominant Point, Fine Classification
+"
+,,,,,
+PEMANFAATAN TOGAF ADM UNTUK PERANCANGAN SISTEM INFORMASI DINAS PERINDUSTRIAN & PERDAGANGAN SEBAGAI SUB SISTEM ARSITEKTUR E-GOVERNMENT KABUPATEN BANGKALAN,Penulis : Norman,"Dosen Pembimbing I : M. Kautsar Sophan, S.Kom., M. MT.","Dosen Pembimbing II :Yeni Kustiyahningsih S.Kom., M.Kom.","Penyusunan Sistem Informasi Dinas Perindustrian & Perdagangan (DISPERINDAG) Kabupaten Bangkalan dibuat untuk meningkatkan kualitas pelayanan dan membantu proses kinerja dari dinas tersebut. Salah satu faktor pendorong pemanfaatan sistem informasi yang lebih baik adalah semakin meningkatnya kebutuhan fungsi pelayanan yang dijalankan. Tujuan dari penerapan Arsitektur Enterprise adalah menciptakan keselarasan antara bisnis dan teknologi informasi bagi kebutuhan instansi, penerapan arsitektur enterprise tidak terlepas dari bagaimana sebuah instansi merencanakan dan merancang arsitektur enterprise tersebut. TOGAF ADM merupakan metodologi yang lengkap, banyak instansi yang tidak memahami secara jelas tentang tahapan – tahapan dari metodologi tersebut diterjemahkan ke dalam aktivitas perancangan Arsitektur Enterprise. Tahapan dalam perancangan Arsitektur Enterprise sangatlah penting dan akan berlanjut pada tahapan berikutnya yaitu rencana implementasi. TOGAF ADM memiliki empat komponen utama: arsitektur bisnis, arsitektur data, arsitektur teknologi dan arsitektur aplikasi. Pada intinya TOGAF digunakan untuk membuat Arsitektur Enterprise dari semua aspek tersebut yang menghasilkan model dan kerangka dasar dalam mengembangkan sistem informasi yang terintegrasi untuk mendukung kebutuhan Dinas Perindustrian & Perdagangan sesuai dengan Peraturan Bupati Bangkalan Nomor 38 Tahun 2010 Tentang Uraian Tugas Jabatan Struktural pada Dinas Perindustrian dan Perdagangan.","Preparation of the Information Systems Dinas Perindustrian dan Perdagangan (Disperindag) Bangkalan made to improve the quality of service and assist in the performance of the agency. One factor driving the use of better information systems is the increasing needs of the service function is executed. The purpose of the application of Enterprise Architecture is to create harmony between business and information technology for the needs of agencies, the application of enterprise architecture is inseparable from how an agency's plan and design the enterprise architecture. TOGAF ADM is a comprehensive methodology, many agencies that do not understand clearly about the stage - the stage of the methodology are translated into the design of an Enterprise Architecture activities. Stages in Enterprise Architecture design is very important and will continue at the next stage of the implementation plan. TOGAF ADM has four main components: business architecture, data architecture, technology architecture and application architecture. At the core TOGAF Enterprise Architecture is used to make all aspects of the resulting model and the basic framework in developing integrated information systems to support the needs of Dinas Perindustrian dan Perdagangan Office in accordance with the decree No. 38 of 2010 Bangkalan On Structural Position Description Duties at the Dinas Perindustrian dan Perdagangan."
+,,,,,
+Pengelompokkan Data BBM Time Series Dengan Menggunakan Fuzzy C-Means,Penulis : Novie Safitri Hardi,"Dosen Pembimbing I : Bain Khusnul Khotimah, ST, M.Kom","Dosen Pembimbing II :Mula'ab S.SI, M.Kom","ABSTRAK
+Pencatatan laporan mengenai pemesanan, penjualan, harga, tingkat, persediaan dan lain sebagainya adalah komponen dari sistem informasi yang penting dan paling dasar yang digunakan oleh para manajer perusahaan. Karena dengan hal ini para manajer pemasaran dapat menemukan masalah yang penting yaitu dengan cara menganalisisnya. Penelitian ini membahas penerapan algoritma Fuzzy C-Means, dalam penelitian yang dilaksanakan di Depot Pertamina Camplong bertujuan untuk mengidentifikasikan pola dari data penjualan BBM. Pengujian dilakukan pada dua jenis BBM, yaitu BBM jenis Premium dan BBM jenis Solar.Clustering merupakan metode pengelompokan suatu objek kedalam sejumlah kelompok (cluster) yang sesuai. Prinsip clustering adalah meminimumkan kesamaan antar anggota satu cluster dan memaksimalkan kesamaan antar anggota cluster yang berbeda. Fuzzy C-Means merupakan teknik pengclusteran dimana tiap-tiap data ditentukan oleh derajat keanggotaannya. Semakin besar nilai derajat keanggotaan data dalam suatu cluster maka semakin besar pula data tersebut menjadi anggota cluster tersebut.Hasil clustering kemudian diproses atau dievaluasi menggunakan Sum Squared Error (SSE) diaman sebelumnya harus diketahui niai pusat cluster guna mengetahui cluster yang mana yang memiliki nilai error yang terkecil. 
+
+Kata Kunci : Pengelompokkan data, Fuzzy C-Means(FCM), Sum Squared Error (SSE)
+","ABSTRACT
+Recording a report on reservations, sales, price, rate, inventory and so are the components of the information system and the most important base used by corporate managers. Due to this the marketing manager can find the important problems is by way of analyzing it. This study discusses the application of Fuzzy C-Means algorithm, in a study conducted in Camplong Pertamina aims to identify patterns of fuel sales data. Tests conducted on two types of fuel, namely Premium fuel types and fuel type of Solar.Clustering is a method of grouping objects into a number of groups (clusters) are appropriate. The principle of clustering is to minimize the similarity between members of the cluster and maximizing the similarity between members of different clusters. Fuzzy C-Means is a technique in which each pengclusteran the data is determined by the degree of membership. The greater the degree of membership data in a cluster, the greater the data into the cluster members. Clustering results is then processed or evaluated using the Sum Squared Error (SSE) which must be known before the cluster center value in order to determine which clusters that have the smallest error value.
+Keywords: Grouping of data, Fuzzy C-Means (FCM), Sum Squared Error (SSE)
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"SISTEM PENENTUAN STATUS GIZI PASIEN RAWAT INAP
+MENGGUNAKAN METODE NAÏVE BAYES CLASSIFIER
+(STUDI KASUS : RSUD DR. H. SLAMET
+MARTODIRDJO PAMEKASAN)",Penulis : Nur Anggraeni,"Dosen Pembimbing I : Diana Rahmawati, ST.M.T","Dosen Pembimbing II :Firli Irhamni, ST.M.Kom","Di Indonesia masalah perkembangan gizi adalah masalah yang
+perlu perhatian lebih. Jika seseorang tidak mengetahui tentang status
+gizinya, maka tidak akan dapat mengontrol berapa banyak jumlah gizi
+yang dibutuhkan dalam tubuh. Dalam penelitian ini dirancang aplikasi
+sistem pendukung keputusan yang digunakan untuk menentukan status
+gizi pasien dan memberikan solusi makanan pada pasien sesuai riwayat
+penyakit yang di derita pasien. Sistem yang dirancang ini berbasis Web,
+dan memudahkan pihak admin atau ahli gizi rumah sakit dalam
+penentuan status gizi pasien. Diharapkan dengan adanya aplikasi ini
+dapat memberikan efisien dan efektifitas kinerja setiap pihak.
+Metode yang digunakan dalam penelitian ini menggunakan
+Naïve Bayes Classifier (NBC). Metode terbaru yang di gunakan untuk
+memprediksi probabilitas.Metode Naïve bayes Classifier melakukan
+proses penentuan perhitungan probabilitas status gizi. Dimana dicari
+nilai probabilitas terbesar yang kemudian menjadi kesimpulan
+penentuan status gizi.
+Metode ini dapat diterapkan dalam studi kasus Sistem
+Penentuan Status Gizi Pasien dengan hasil akurasi terbesar 92%.
+Kata Kunci : Naïve Bayes Classifier, Sistem Pendukung Keputusan,
+Status Gizi, Web","The Nutrition in Indonesia developmental problems are problems that need more attention.
+If someone does not know about nutritional status, it will not be able to control how many
+nutrients are needed in the body, while the data collection method is a method of literature,
+interviews, observation methods. In this study tried to design a decision support system
+application that is used to determine the nutritional status of patients and provide appropriate
+solutions in patients with a history of food in the suffering patient's disease. These systems are
+designed Web-based. In this system may facilitate the admin or the hospital nutritionist in
+determining the nutritional status of patients. It is expected that these applications can provide
+efficient and effective performance of each party.
+At this final method was applied to the Naïve Bayes Classifier (NBC). Naïve Bayes
+Classifier is a new method that is used to predict the probability. Bayes method is also a good
+method in machine learning based on training data, using the conditional probability as the
+basis.
+Key words: Naïve Bayes Classifier, Decision Support System, Nutritional Status, Web."
+,,,,,
+,,,,,
+,,,,,
+RANCANG BANGUN GAME PERAWATAN SAPI KARAPAN MENGGUNAKAN METODE FUZZY LOGIC,Penulis : NURRACHMAT,"Dosen Pembimbing I : Arik Kurniawati, S.Kom., M.T.","Dosen Pembimbing II :Kurniawan Eka Permana, S.Kom., MSc.","Perkembangan game yang semakin pesat, memberikan berbagai alternative bagi peminatnya. Mulai dari bentuk game, cerita maupun media penyajian. Keberadaan game yang menggambarkan budaya Indonesia khususnya daerah kepulauan seperti Madura terhitung sedikit, sehingga dapat dirasa semakin lunturnya kebudayaan Indonesia bagi anak bangsa. Adanya peminat game yang semakin banyak dapat digunakan sebagai sarana pengenalan budaya asli Madura. Sebuah aplikasi game tentang olahraga yang sangat digemari di pulau Madura tersebut seperti Kerapan Sapi adalah sangatlah penting. Untuk itu perlu dibangun aplikasi game kerapan sapi sebagai upaya pelestarian budaya bangsa khususnya pulau Madura. Dengan upaya pembuatan game budaya maka dibangun  game perawatan sapi karapan menggunakan metode logika fuzzy (fuzzy logic), dengan menginputkan parameter kekuatan dan kesehatan sapi karapan untuk menentukan harga jual sapi karapan dalam sebuah game perawatan sapi karapan.
+Kata kunci : game, kerapan sapi, perawatan sapi kerapan, budaya madura.","The rapid development of the game, providing a variety of alternatives for devotees. Starting from the form of games, stories and media presentation. The existence of games that depict the culture of Indonesia in particular areas such as Madura islands are comparatively few, so it can be considered the erosion of the culture of Indonesia for the children of the nation. There is a growing interest in the game can be used as a means of introduction to indigenous culture Madura. An application of sports games that are very popular on the island of Madura such as bull racing is very important. For it is necessary to build gaming applications bull race as national cultural preservation efforts in particular the island of Madura. With the efforts of the built cultural game development of bull race treatments using fuzzy logic method (fuzzy logic), with the strength parameters and the healt to set prices of cows in a bull race treatments game.
+Keywords: game, bull race, bull race treatments, madura culture.
+"
+,,,,,
+,,,,,
+,,,,,
+"SISTEM PEROLEHAN CITRA BERBASIS ISI
+MENGGUNAKAN GRLM BERDASARKAN CIRI TEKSTUR PADA POLA BATIK
+",Penulis : Priagung Safara Dila,"Dosen Pembimbing I : Mula'ab . S.Si ,. M,.Kom","Dosen Pembimbing II :Bain Khusnul Khotimah .S.T,. M.,Kom","Batik merupakan seni yang paling penting dalam kehidupan masyarakat Indonesia. Keanekaragaman batik datang dari beberapa wilayah dan provinsi sehingga menyimbolkan karakteristik ciri pola batik yang berbeda-beda dari masing-masing daerah tempat batik tumbuh dan berkembang. Tugas akhir ini telah berhasil membuat suatu Sistem Perolehan Citra berbasis Isi (SPCI) dengan ciri tekstur yang bertujuan untuk mengetahui ciri dari pola batik tersebut. SPCI merupakan metode atau teknik pencarian gambar citra yang mirip (similar) dengan melakukan perbandingan antara citra query dengan citra yang ada dalam basis data. Pada penelitian  ini menggunakan ciri tekstur sebagai proses pencarian kemiripan dari delapan wilayah citra batik yang  berbeda yaitu: Cirebon, Bali, Bangkalan, Pamekasan, Sumenep, Yogyakarta, Solo, dan Pekalongan sebagai obyek perolehan citra berbasis isi. Sistem dibangun dengan proses utamanya yaitu ekstraksi fitur tekstur dengan menggunakan metode Gray Level Run Length Matrix (GLRM). GLRM dilakukan dengan membuat rangkaian pasangan nilai (i,j) pada setiap baris piksel dengan arah tertentu. Hasil ekstraksi fitur selanjutnya dilakukan pengukuran jarak kemiripan menggunakan metode Euclidean Distance. Dari uji coba aplikasi menggunakan pengukuran kemiripan Euclidean Distance dengan nilai threshold=145 diperoleh akurasi presisi sebesar  0.53  pada data pelatihan 184 dan data uji coba 16 dengan jumlah citra yang ditampilkan 10. 
+
+Kata Kunci: Tekstur, Sistem Perolehan Citra berbasis Isi, Gray Level Run Length Matrix, Euclidean Distance
+","Batik is the art of the most important in the life of Indonesian society. Diversity batik comes from several regions and provinces thus symbolizing the traits characteristic of batik patterns different from each area where batik grow and develop. This final project has successfully created a Content-based Image Acquisition System (SPCI) with a characteristic texture aims to determine the characteristics of the batik pattern. SPCI is a method or technique similar image search image (similar) to make comparisons between the query image with the image present in the database. In this study, using texture characteristics as similarity search process batik images of eight different classes, namely: Cirebon, Bali, Jakarta, Pamekasan, Sumenep, Yogyakarta, Solo, and Pekalongan as content-based image acquisition object. The system was built with the main texture feature extraction using the Gray Level Run Length Matrix (GLRM). GLRM done by making a series of pairs of values (i, j) on each row of pixels in a certain direction. The results of the feature extraction is then performed using the method of distance measurement similarity Euclidean Distance. From the test application using Euclidean Distance similarity measurement threshold value = 145 precision accuracy obtained for 0:53 on 184 training data and test data 16 with the number of images displayed 10.
+
+Keywords: Texture, Content-based Image retrieval, Gray Level Run Length Matrix, Euclidean Distance
+"
+,,,,,
+ANALISIS DAN PENERAPAN ALGORITMA PARTICLE SWARM OPTIMIZATION PADA OPTIMASI PENJADWALAN MATA KULIAH DI JURUSAN TEKNIK INFORMATIKA UNIVERSITAS TRUNOJOYO MADURA,Penulis : Qomarul Haryadi Irfan Rifa'i,"Dosen Pembimbing I : Bain Khusnul Hotimah S.T., M.Kom.","Dosen Pembimbing II :Arik Kurniawati, S.Kom, M.T.","Penjadwalan mata kuliah di program studi Teknik Informatika Universitas Trunojoyo Madura dilakukan pada setiap pergantian semester. Beberapa faktor yang mendukung penjadwalan mata kuliah antara lain dosen, mahasiswa, mata kuliah, serta jumlah ruang dan waktu yang tersedia. Permasalahan optimasi penjadwalan merupakan masalah yang sudah umum dan telah dipelajari dalam waktu yang lama, namun perlu dicari metodologi atau pendekatan teknis dan sampai saat ini telah berkembang beberapa solusi alternatif yang ditawarkan. Dalam penelitian ini digunakan algoritma Particle Swarm Optimized (PSO) utnuk melakukan optimasi pada jadwal kuliah. Karena algoritma PSO memiliki tool-tool yang cukup handal dengan penggunaan yang cukup mudah. Hasil penelitian menunjukkan bahwa algoritma Particle Swarm Optimiztion dapat diterapkan  dengan lebih baik pada optimasi penjadwalan mata kuliah dengan memaksimalkan penggunaan parameter-parameter dari algoritma Particle Swarm Optimiztion yaitu apabila nilai w besar maka untuk mengoptimalkan nilai velocity gunakan nilai kecil pada c1 dan c2, begitu juga sebaliknya bila nilai w kecil maka gunakan nilai besar pada c1 dan c2.","Scheduling courses in Information Engineering Trunojoyo Madura University performed at every turn of the semester. Several factors support the scheduling of courses such as faculty, students, courses, and the amount of space and time available. scheduling optimization is a problem that is common and has been studied for a long time, but need to find a methodology or technical approaches and to date has developed several alternative solutions offered. This study used algorithm Particle Swarm Optimization (PSO) for optimizing the class schedule. Because the PSO algorithm has the tools reliable enough with use quite easily. The results showed that algorithm Particle Swarm Optimiztion can be applied better course scheduling optimization with maximize the use of the parameters of the algorithm Particle Swarm Optimiztion ie when the value of w greater then to optimize the value of velocity using a small value on c1 and c2, and vice versa when the value of w is small then use a large value on c1 and c2."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Deteksi Manusia Menggunakan Histogram of Oriented Gradients dan Naïve Bayes Classifier,Penulis : R.A. Uluwiyah Nur Oktavianis ,"Dosen Pembimbing I : Dr. Indah Agustien, S.Kom., M.Kom","Dosen Pembimbing II :Ari Kusumaningsih, S.T, M.T","Deteksi manusia merupakan  suatu aplikasi yang berfungsi untuk mendeteksi objek manusia dalam sebuah citra. Beberapa keuntungan yang dapat diambil dari kajian ini, yaitu penerapan pada video pengawasan. Namun, dalam video pengawasan manusia yang dideteksi dalam keadaan bergerak. Sedangkan aplikasi ini, hanya mendeteksi atau menemukan objek manusia dari background sebuah citra. Sehingga dalam proses pembuatan aplikasi ini diperlukan perhitungan – perhitungan khusus untuk mendapatkan hasil yang baik. Penelitian ini menggunakan dua tahap yaitu proses ekstraksi fitur dan klasifikasi. Proses ekstraksi fitur menggunakan metode Histogram Of Oriented Gradients (HOG). Pada prinsipnya HOG menggunakan histogram untuk memperoleh ekstraksi fitur tersebut, dengan  beberapa langkah diantarnya yaitu konversi citra, gradient compute dan normalisasi. Sedangkan pada metode Naive Bayes Classifier ini di gunakan untuk proses pengklasifikasian atau pencocokan citra. Sehingga pada hasil akhir dapat diketahui kelas citra yang telah diuji. Berdasarkan uji coba aplikasi menggunakan perhitungan distribusi gaussian probabilitas pada naive bayes classfier dengan nilai threshold = 12,13,14 dan 15 pada skenario 1, 2 dan 3 diperoleh rata – rata akurasi sebesar 68,65%.
+
+Kata kunci : Histogram Of Oriented Gradient, Naive Bayes Classifier
+","Human detection is an application to detect human objects in an image. One of the advantage that can be drawn from this study is video surveillance. However, video surveillance in humans were detected in motion. While this application, only detect or locate human objects from an image background. Thus, in the process of making this application is necessary calculations - special calculations to obtain good results.
+
+This study used two methods, histogram of oriented gradient method and the naive bayes classifier. Histogram of oriented gradient method is used to get the feature extraction. In principle, this method uses histogram to obtain the feature extraction, with several steps among which are convertible image, gradient compute and normalization. While the naive bayes classifier method is used for classification or matching the image. So at the end result can be known class image has been tested. The image used is 250 images with 75 positive images and 75 negative images and 100 test images.
+
+Based on testing applications using a gaussian distribution probability calculations on naive bayes classfier with threshold value = 12,13,14 and 15 on scenario 1, 2 and 3, obtained the average accuracy of 68.65%.
+
+Key words : Human Detection, Histogram Of Oriented Gradient, Naive Bayes
+                  Classifier
+"
+,,,,,
+,,,,,
+,,,,,
+"MEDIA PEMBELAJARAN INTERAKTIF UNTUK TOPIK SORTING 
+(ALGORITMA INSERTION SORT DAN MERGE SORT)
+",Penulis : Rahmat Aidil Fitri Rysa,"Dosen Pembimbing I : Yonathan Ferry Hendrawan, S.T., M.IT.","Dosen Pembimbing II :Dr.Indah Agustien Siradjuddin, S.Kom., M.Kom.","Multimedia merupakan perpaduan antara berbagai media yang berupa teks, gambar, grafik, sound, animasi, video, interaksi, dan lain lain yang dikemas menjadi file digital, digunakan untuk menyampaikan pesan kepada publik. Media  pembelajaran  interaktif merupakan segala  sesuatu yang menyangkut Software  dan Hardware yang  dapat  digunakan  sebagai  perantara untuk  menyampaikan  isi  materi  ajar  dari  sumber  belajar  ke  pembelajar  dengan metode  pembelajaran  yang  dapat  memberikan  respon  balik  terhadap  pengguna dari apa yang telah diinputkan kepada media tersebut. Kualitas  media  pembelajaran  dapat  dinilai  melalui  ukuran-ukuran  dan  metode-metode tertentu. Tujuan penelitian ini adalah membuat sebuah media pembelajaran sorting yang dapat diputar pada komputer. Perangkat lunak yang digunakan untuk mengimplementasikan sistem menggunakan Flash dan diaplikasikan pada media pembelajaran Sorting serta pada materi pengantar algoritma. Dengan menggunakan skenario sebelum video dan program dibuat sehingga perancangan media pembelajaran ini terstruktur dan sistematis. Inteface yang dibuat berisi menu pilihan materi tentang algoritma dan Sorting serta Video pembelajaran yang dapat menambah dan membantu pemahaman materi algoritma serta sorting yang didalamnya mencakup materi Insertion Sort dan Merge sort. Dalam video tersebut juga dilengkapi animasi sebagai contoh sesuai materi pembelajaran yang dibuat.
+Kata Kunci :	Media Pembelajaran, Video, Flash, Sorting
+","Multimedia is a combination of various media such as text, images, graphics, sound, animation, video, interaction, and others were packed into a digital file, used to convey messages to the public. Interactive learning media is everything related to Software and Hardware that can be used as an intermediary to convey the contents of the teaching materials of learning resources to learners with learning methods that can give feedback to the user of what has been entered to the media. The quality of learning media can be assessed through measurements and certain methods. The purpose of this research is to create a learning medium sorting that can be played on the computer. The software used to implement the system using Flash and applied to study media Sorting algorithms as well as the introductory material. By using the scenario before the video and made the program so that the design of learning media is structured and systematic. Interface that is created contains material about the menu options and Sorting algorithms and video learning can increase and help the understanding of the material as well as a sorting algorithm which also includes material Insertion Sort and Merge sort. In the video also features animation as an example of appropriate learning materials are made.
+Keywords: Learning Media, Video, Flash, Sorting
+"
+,,,,,
+SISTEM PERAMALAN KEBUTUHAN OBAT MENGGUNAKAN METODE JARINGAN SYARAF TIRUAN ALGORITMA  BACKPROPAGATION DENGAN FUNGSI LYAPUNOV,Penulis : Rahmatina Hidayati,"Dosen Pembimbing I : Bain Khusnul Khotimah, S.T.,M.Kom.","Dosen Pembimbing II :Haryanto, S.T.,M.T.","Obat merupakan salah satu kebutuhan penting dalam rumah sakit. Selama ini, kebutuhan pengumpulan data obat adalah masalah yang sering dihadapi oleh Farmasi yang memiliki kewenangan dalam pengadaan obat-obatan di rumah sakit Dr H. Slamet Martodirdjo Pamekasan. Dalam rangka menjamin ketersediaan obat perlu untuk mengatasi kebutuhan obat sesuai dengan jumlah yang dibutuhkan. Dalam rangka memenuhi tingkat kebutuhan untuk obat perlu untuk meramalkan masa depan pasokan obat dengan menggunakan data sebelumnya sebagai data untuk menentukan nilai kesalahan pelatihan metode yang digunakan. Dalam penelitian ini, metode yang akan digunakan untuk memprediksi kebutuhan obat adalah Jaringan Syaraf menggunakan algoritma Backpropagation dengan penambahan fungsi Lyapunov. Dengan penambahan fungsi ini, mampu memecahkan masalah yang terjadi dalam Backpropagation standar sering lambat untuk mencapai konvergensi.
+Dari uji coba yang dilakukan dengan 3 Skenario didapatkan hasil parameter terbaik untuk melakukan peramalan pada nama obat Ambroxol dengan  nilai (?) sebesar 13, learning rate 0.4 dan epoch=125 memperoleh  nilai MAPE  2.7% .  Obat Bisoprolol Tab 5mg dengan nilai (?) sebesar 2,  learning rater  0.5 dan epoch 150 memperoleh nilai MAPE  2,94089%.  Obat Cefixime Caps 100mg dengan  nilai (?) sebesar 4, learning rate   0.2  dan epoch 100  memperoleh nilai MAPE  1,10466%.
+","Medicine is one of the important needs in hospital. During this time, requirement of data collection of medicine is a common problem faced by Pharmacy which has authority in the procurement of medicines in the hospital Dr H. Slamet Martodirdjo of Pamekasan. In order to ensure the availability of the medicines, it needs to overcome problem of medicine requirement that correspond to the amount needed. In order to fulfill medicine requirement level, it is important to predict the future supply of medicine by using the previous data as data to determine error value of training of method used. In this study, the method which will be used to predict the need for medicine is Neural Network using Backpropagation algorithm with addition of Lyapunov function. With the addition of this function, it is able to solve problems that occur in the standard Backpropagation that is often slow to reach convergence.
+From the experiments performed with 3 Scenario, it is obtained the result of the best parameters to conduct the prediction on a drug named Ambroxol with mark (?) 13, learning rate 0.4 and epoch = 125 gaining MAPE 2.7%. Tablet Bisoprolol 5mg with mark (?) 2, learning rater 0.5 and epoch 150, obtains MAPE 2.94089%. Cefixime Caps 100mg with mark (?) 4; learning rate 0.2 and epoch 100 obtain MAPE 1.10466%."
+,,,,,
+Analisa Pemilihan Alat Kontrasepsi Dengan Menggunakan Metode Naive Bayes,Penulis : Ratih Marcelina,Dosen Pembimbing I : Firli Irhamni,Dosen Pembimbing II :Muhammad Ali Syakur,"KB adalah singkatan dari Keluarga Berencana. Menurut Kamus besar Bahasa Indonesia (1997), KB adalah “Gerakan untuk membentuk keluarga yan sehat dan sejahtera dengan mengatur kehamilan”. Dengan kata lain KB adalah perencanaan jumlah keluarga. Pengaturan bisa dilakukan dengan penggunaan alat-alat kontrasepsi atau penanggulangan kehamilan seperti pil, suntik, IUD, dan sebagainya. Jumlah anak di anggap ideal adalah dua anak.Dalam proses penentuan pemilihan alat kontrasepsi tersebut memerlukan  Metode peramalan yang digunakan dalam sistem ini adalah metode Naïve bayes classifer untuk menghitung jumlah ketepatan dalam menentukan pilihan alat kontrasepsi. Aplikasi sistem pendukung keputusan dengan Naïve bayes classifer dapat dijadikan solusi untuk menentukan alat kontrasepsi, Nilai konfigurasi parameter untuk sistem pendukung keputusan dengan menggunakan Naïve bayes classifer.
+
+Kata Kunci : Alat Kontrasepsi, Sistem Pendukung Keputusan,  Naïve bayes classifer
+","KB is abbreaviation of Family Planning. According big Indonesian Dictionary (1997), KB is ""Movement to form a healthy and prosperous yan families with birth control"". In other words, KB is the number of family planning. Arrangements can be made with the use of tools such as contraception or pregnancy prevention pills, injections, IUDs, and so on. The number of children considered ideal is two children. In the process of determining the election of contraceptives requires forecasting method used in this system is the Naïve Bayes classifer method for calculating the amount of accuracy in determining the choice of contraceptive. Application of decision support systems with Naïve Bayes classifer can be used to determine the contraceptive solution, configuration values for the parameters of a decision support system by using the Naïve Bayes classifer. 
+
+Keywords: Contraceptives, Decision Support Systems, Naïve Bayes classifer
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Rancang Bangun Aplikasi Kamus Indonesia Madura Berbasis Android,Penulis : Rizky Ardiyansyah Putra,"Dosen Pembimbing I : Cucun Very Angkoso, S.T.,M.T.","Dosen Pembimbing II :Fika Hastarita Rachman, ST., M.Eng.","Kamus pada perangkat selular lebih praktis dibandingkan dengan kamus cetak konvensional, karena pengguna dapat menerima informasi dengan cepat dimana saja tanpa adanya batasan ruang dan waktu. Kamus dapat memberikan informasi dan juga dapat dijadikan suatu media untuk belajar memahami istilah atau arti kata bahasa asing ataupun bahasa suatu daerah sehingga menambah pengetahuan dan wawasan.
+Madura sebagai salah satu daerah di Indonesia yang memiliki adat bahasa yang khas. Selain itu, keaneka ragam budaya yang ada di Madura menjadi daya tarik wisatawan untuk berkunjung ke Pulau Madura. Ketrampilan berbahasa sangat dibutuhkan untuk mempermudah berkomunikasi dengan masyarakat madura. 
+Penulis menggunakan Android sebagai platform media aplikasi ini karena android berbasis open source. Kebutuhan akan informasi sangat penting dan semakin luas pengetahuan pengguna akan bahasa daerah khususnya bahasa Madura dapat terpenuhi serta tidak terbatas ruang dan waktu karena kamus Madura ini diimplementasikan pada perangkat selular yang menggunakan sistem operasi Android versi 2.3 Ginggerbread. Aplikasi kamus mobile bahasa Indonesia Madura berbasis android ini dirancang agar pengguna dapat menambah wawasan dan mengetahui kata-kata dasar bahasa Madura dengan mengakses langsung dari perangkat selular mereka tanpa harus mencari pada kamus cetak konvensional atau menggunakan kamus online.
+
+Kata kunci : Android, Kamus, Indonesia – Madura
+","Dictionary on mobile devices is more practical than conventional print dictionaries, because the user can receive information quickly anywhere without any limitation of space and time. Dictionaries can provide information and also can be used as a medium to learn to understand the meaning of a term or a foreign language or a regional language that adds to the knowledge and insight.
+Madura as one of the regions in Indonesia which has a distinctive indigenous language. In addition, the diversity of cultural diversity that exist in Madura attract tourists to visit the island of Madura. Language skills are needed to make it easier to communicate with the people of Madura.
+The author uses Android as a media platform for android application based on open source. The need for information is very important and more extensive knowledge of the local language users in particular will be met and Madurese language is not limited to space and time as Madura dictionary is implemented on mobile devices that use the Android operating system version 2.3 Ginggerbread. Indonesian mobile dictionary application android based Madura is designed so that users can add insight and know the basic words of the language of Madura with access directly from their mobile devices without having to look for the conventional print dictionary or use an online dictionary.
+
+Keywords: Android, Dictionary, Indonesia - Madura"
+,,,,,
+,,,,,
+APLIKASI METODE FUZZY ANALYTIC NETWORK PROCESS (FANP) UNTUK MENDUKUNG KEPUTUSAN PROSES PROMOSI JABATAN DI PT. SURYA MADISTRINDO PAMEKASAN,"Penulis : Robiatul Adawiyah, S.Kom","Dosen Pembimbing I : Diana Rahmawati, S.T, M.T","Dosen Pembimbing II :Budi Dwi Satoto, S.T, M.Kom","Perusahaan pemerintah maupun swasta mempunyai tujuan yang harus dicapai. Pencapaian tujuan perusahaan dapat dilakukan dengan pemanfaatan sumber daya yang dimiliki secara optimal, salah satu sumber daya tersebut adalah sumber daya manusia yang dimiliki oleh perusahaan. Sesuai dengan peraturan yang telah ditetapkan PT. Surya Madistrindo Pamekasan dalam melakukan proses promosi jabatan, maka diperlukan kriteria-kriteria seperti aspek kapasitas intelektual, aspek sikap kerja, dan aspek perilaku yang masing-masing mempunyai sub kriteria tersendiri. Metode yang digunakan adalah metode Fuzzy Analytic Network Process (FANP). Metode FANP sendiri digunakan untuk mencari bobot prioritas kepentingan dari seluruh kriteria dan sub kriteria yang telah ditetapkan dan sebagai proses perangkingan atas bobot kriteria masing-masing data karyawan. Pembobotan diperoleh dari hasil kuesioner yang dilakukan oleh pimpinan perusahaan. Proses perangkingan dilakukan dengan cara mengalikan nilai bobot dari kriteria ke tiap-tiap sub kriteria sehingga mampu menyeleksi karyawan yang berhak menduduki jabatan yang tersedia berdasarkan kriteria-kriteria yang ditentukan. Dari hasil uji coba dalam menyelesaikan studi kasus proses promosi jabatan karyawan menghasilkan nilai akurasi sebesar 80%.
+
+
+Kata kunci 	: 	Sistem Pendukung Keputusan, Promosi Jabatan,  Fuzzy Analytic Network Process (FANP)
+","Government and private companies have a goal to be achieved. Achievement of corporate goals can be done with the use of available resources in an optimal, one of these resources is a human resources company owned by. In accordance with the rules set PT. Surya Madistrindo Pamekasan in the process of promotion, then the required criteria such as aspects of intellectual capacity, aspects of work attitudes, and behavioral aspects that each has its own sub-criteria. The method used is Fuzzy Analytic Network Process method. The FANP method itself is used to find the weight of the priority interests of all criteria and sub criteria have been established and a process for weighting the criteria grading process each employee. Weighting obtained from the questionnaire conducted by leader of company.  Grading process is done by multiplying the value of the weights of the criteria for each sub criteria that candidates who are eligible employees of the available positions based on criteria determined. From the test results in the complete case study of employee promotion process generates value by 80% accuracy.
+
+ 
+Keywords	:	Decision Support Systems, Promotion, Fuzzy Analytic Network Process (FANP)
+"
+,,,,,
+Klasifikasi Dokumen Web Berita Universitas Menggunakan k-NN (K-Nearest Neighbor) ,Penulis : rohmi nur hidayah,"Dosen Pembimbing I : firdaus solihin, S. kom., M. Kom","Dosen Pembimbing II :Hermawan, S.T., M.Kom","Jumlah dokumen berita di situs web universitas semakin banyak dan up-to-date. Kebutuhan pengunjung akan informasi tersebut semakin tinggi, sedangkan di sisi lain pengguna membutuhkan penemuan informasi yang cepat dan akurat. Penelitian ini menggunakan metode cosine similarityuntuk menghitung kemiripan antar dokumen. Selain itu agar pencarian dokumen mudah ditemukan, maka dokumen diklasifikasikan berdasarkan pada kelas-kelas yang sudah ditentukan sebelumnya (preedefined) menggunakan metode k-NN (k-nearest neighbour). Untuk mempercepat penyampaian hasil pencarian kepada pengguna maka pada aplikasi ini digunakan teknik caching terhadapdokumen-dokumen yang pernah dikembalikan sebelumnya kepada pengguna. Teknik ini dimaksudkan untuk meningkatkan transfer dokumen dengan menyimpan dokumen yang pernah diakses pada cache tersebut, sehingga apabila ada dokumen yang ingin diakses adalah dokumen yang sama maka akses akan dapat dilakukan lebih cepat. Hasil pengujian memperlihatkan bahwa akurasi klasifikasi k-NN untuk dokumen teks berita mampu mencapai 95% saat dokumen diwakili oleh judul dan paragraf pertama (k=20, 25 dan 45) tetapi hanya maksimal 40% saat dokumen diwakili oleh judul dan isi lengkap. Adanya klasifikasi terbukti meningkatkan presisi hasil pencarian dan mempersingkat proes pencarian tersebut. Kehadiran cachemenjadikan waktu pemrosesan query yang telah ada sebelumnya menjadi jauh lebih cepat, rata-rata hanya memerlukan 7 mili detik.
+
+Kata kunci : k-Nearest Neighbour,cosine similaity, cache.
+","Most of the university's website in Indonesia has not implemented the classification of the content it provides. Three web site has been applying manual classification is ITB, UGM and IPB, where the result is still ambiguous. Visitors from the university's website require information that focus on a specific topic, fast in processing user queries and renewable. We conducted a study to establish a system called kNN portal intended to classify documents from chosen 10 news web sites using text classification method kNN (k-nearest neighbor). Classification results are then used to improve the performance of the process of handling user queries. Similarity between the query with a list of documents contained in the kNN Portal repository is calculated by the cosine similairity. Caching techniques are included to speed up the query processing. The test results show that the k-NN classification accuracy for news text document is able to achieve 95% when a document is represented by the title and first paragraph (k = 20, 25 and 45) but only a maximum of 40% when a document is represented by the title and complete text. The existence of the classification is able to improve the precision of search results and shorten the searching process. The presence of the cache makes the preexisting query processing time become much faster, on average only requires 7 milliseconds. 
+
+Keywords: k-Nearest Neighbour, cosine similaity, text classification, cache, first paragraph."
+,,,,,
+SISTEM PENDUKUNG KEPUTUSAN PENERIMAAN SISWA BARU BERBASIS WEB MENGGUNAKAN METODE ID3 DI SMA HIDAYATUN NAJAH PAMEKASAN,Penulis : Rudi Sutrisno,"Dosen Pembimbing I : Bain Khusnul Khotimah, ST, M.Kom. ","Dosen Pembimbing II :Achmad Jauhari, ST, M.Kom.","
+Penyeleksian siswa baru adalah suatu hal yang perlu ditentukan secara tepat dan tepat. Dalam hal penentuan calon siswa baru diperlukan beberapa pertimbangan yang cukup banyak dan rumit yaitu standarisasi nilai, persyaratan masuk sekolah serta kebijakan-kebijakan dari pemerintah lembaga pendidikan  yang sering berubah tiap tahunnya. Maka dari itu perlu untuk merancang sebuah aplikasi untuk membantu panitia penerimaan siswa baru dalam menyeleksi siswa baru. Sehingga nantinya memperoleh siswa yang unggul, berprestasi, dan berkualitas. Decision Tree Learning merupakan satu metode learning yang sangat populer dan banyak digunakan secara praktis. Algoritma Iterative Dychotomizer 3 (ID3) yaitu salah satu metode yang dapat membangun pohon keputusan secara top-down dengan menggunakan information gain sebagai alat ukur efektivitas suatu atribut dalam mengklasifikasikan kumpulan sampel data yang kurang lengkap. Pembuatan tugas akhir ini menghasilkan system pendukung keputusan penerimaan siswa baru yang membantu para panitia dalam menyeleksi para peserta siswa baru. Sistem Pendukung Keputusan Penerimaan Siswa Baru di SMA Hidayatun Najah Pamekasan dapat menentukan calon siswa yang unggul dan berkualitas dalam bidang pendidikan dengan hasil yang lebih baik, cepat dan akurat.
+
+Kata Kunci : Decision Tree Learning,Information Gain , Algoritma Iterative Dychotomizer 3 (ID3)","Selection of new students is a matter that needs to be determined accurately and precisely. In determining the prospective new students required some considerable judgment and complicated the standardization value, the school's admission requirements and policies of the government educational institutions often change each year. Thus it is necessary to design an app to help new admissions committee in selecting new students. So that later gained an excellent student, achievement, and quality. Decision Tree Learning is a learning method which is very popular and widely used in practice. Dychotomizer Iterative Algorithm 3 (ID3) is one of the methods that can build a decision tree from the top down using information gain as a measure of the effectiveness of an attribute in classifying the sample data set is less complete. The final project resulted in a decision support system that helps new admissions committee in selecting the participants of new students. Decision Support Systems in High School Admission Hidayatun Najah Pamekasan can determine the prospective students who excel in the field of education and quality with better results, quickly and accurately.
+
+Keywords : Decision Tree Learning,Information Gain , Algoritma Iterative Dychotomizer 3 (ID3)
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Sistem Pakar Diagnosa Penyakit Gagal Jantung Menggunakan Metode Radial Basis Function,Penulis : Shofiyan Yulis Ekasaputra,"Dosen Pembimbing I : Mulaab, S.Si., M.Kom.","Dosen Pembimbing II :Firli Irhamni, ST., M.Kom","Penyakit gagal jantung merupakan salah satu darimacam-macam penyakit jantung, pada penderita gagal jantung, detakanjantungnya tidak berjalan secara normal, dalam melakukan aktivitas normal penderita cenderung mudah lelah, Penyebabnya adalah rusaknya otot jantung serta karena adanya beban jantung yang berlebihan, pada saat ini penderita penyakit gagal jantung tiap tahunnya semakin meningkat, dan lebih cenderung mengenai laki-laki daripada perempuan. Oleh karena itu, perkembangan teknologi informasi dan komunikasi menjadi media utama untuk menjembatani permasalahan tersebut. Di bidang medis, peranan teknologi informasi dan komunikasi dikemas dalam suatu wadah informatika medis, sehingga dibuatlah sebuah sistem pakar penyakit gagal jantung yang nantinya diharapkan bisa bermanfaat untuk mengetahui lebih dini penyakit gagal jantung, sehingga dapat ditangani lebih cepat dan mengurangi resiko meninggal dunia, dalam hal ini aplikasi untuk mendiagnosa penyakit gagal jantung menggunakan metode Radial Basis Function, dengan penentuan hidden node menggunakan K-Means Cluster, metode K-Means digunakan karena ketepatan penentuan nilai centroid yang akurat, fungsi aktivasi yang digunakan pada penelitian ini hanya menggunakan fungsi aktivasigaussian, inputan terdiri dari 16 variabel, berdasarkan keluhan dan gejala-gejala yang dialami oleh pasien, data training dan data testing yang digunakan berasal dari rekammedik Rumah Sakit Umum DaerahSidoarjo. Kata Kunci : Radial Basis Function, K-Means, Gaussian","heart failure disease is one of the kinds of heart disease , in patients with heart failure , the heart beatsdoesn’t runnormally , in the normal activities of people tend to be tired , cause is damage to the heart muscle and heart due to excessive load , the current heart failure disease patients increasing every year , and more likely to be male than the female . Therefore , the development of information and communication technologies became the main medium for bridging these problems . In the medical field , the role of information and communication technology packaged in a container of medical informatics , which was made a heart failure disease expert system which is expected to be useful to know the disease of heart failure early , so it can be handled more quickly and reduce the risk of death, in this case application for diagnose heart failure disease using the Radial Basis Function method , the determination of hidden nodes using the K-Means Cluster , K-Means method is used for precision determination of an accurate value of the centroid , the activation function used in this study only uses gaussian activation function , input consists of 16 variables , based on complaints and symptoms experienced by the patient , training data and testing data were taken from medical records Sidoarjo District General Hospital Keywords: Radial Basis Function, K-Means, Gaussian"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+PENGENALAN POLA SENYUMAN BERBASIS EKSTRAKSI FITUR PRINCIPAL COMPONENT ANALYSIS (PCA) DAN LINIER DESCRIMINANT ANALYSIS (LDA),Penulis : SITI KHOLILAH,"Dosen Pembimbing I : RIMA TRI WAHYUNINGRUM, S.T., M.T","Dosen Pembimbing II :HARYANTO, S.T., M.T","Citra senyum merupakan salah satu fitur biometrik yang dapat dijadikan sebagai bukti autentik dari seseorang. Sistem pengenalan pola (pattern recognition) secara komputerisasi, akan mengetahui identitas atau ciri diri seseorang. Pengenalan senyum telah banyak diteliti oleh banyak kalangan. Salah satu bentuk penerapan pengenalan pola senyum ini adalah mengetahui senyum seseorang sehingga nantinya senyum tersebut dapat dikenali oleh komputer dan disimpan dalam database. Terdapat dua cara untuk menentukan pola senyuman yaitu secara manual dan otomatis. Secara manual dapat dilakukan dengan kasat mata, sedangkan secara otomatis dapat di tentukan dengan menggunakan suatu sistem. Pada  Tugas Akhir ini, mengidentifikasi senyuman secara otomatis digunakan metode Principal Component Analysis (PCA) dan Linier Descriminant Analysis (LDA), dimana jenis senyuman pada tugas akhir ini dibagi menjadi lima bagian, yaitu senyum manis, senyum mengejek, senyum yang dipaksakan, senyum tertutup dan senyum terbuka. Penggunaan metode ekstraksi fitur  yang tepat dan efisien  sangat menentukan keberhasilan dari sistem pengenalan pola secara keseluruhan. Untuk metode klasifikasi pengenalan pola menggunakan Euclidean Distance atau Manhattan Distance. Dari hasil uji coba menggunakan 175 gambar data pelatihan didapatkan tingkat akurasi PCA adalah 89.8% pada ordered3. Sedangkan hasil uji coba menggunakan PCA & LDA didapatkan tingkat akurasi 100% pada ordered3.","Image of a smile is one of the biometric features which can be used as proof of one's authentic. Computerized pattern recognition system, will know the identity or characteristics of a person. The introduction of a smile has been studied by many groups. One form of the application of pattern recognition of smile is know someone smile that will be recognized by the computer and stored in a database. There are two ways to determine patterns of a smile, manually and automatically. Manually can be done with the naked eye, while automatically can be determined by using a system. In this final project, identifying the smile is automatically used method of Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA), which kind of smile in this thesis is divided into five parts, the sweet smile, mocking smile, a forced smile, a smile covered and an open smile. The use of the appropriate feature extraction methods and efficiently determine the success of the overall pattern recognition system. For classification method of pattern recognition using Euclidean Distance or Manhattan Distance. From the test results using 175 images of training data obtained accuracy rate was 89.8% in the PCA in ordered3. While the results of trials using PCA and LDA obtained 100% accuracy rate in ordered3."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"Pengenalan Tipe Huruf Aksara di Indonesia Menggunakan Edge Direction Matrix (Batak Toba, Kaganga, Carakan, Had Lampung)",Penulis : Sulayhah,"Dosen Pembimbing I : Bain Khusnul khotimah, S.T.,M.Kom","Dosen Pembimbing II :Rima Tri Wahyuningrum, S.T.,M.T","Optical Font Recognition (OFR) merupakan  teknik analisa tipe tulisan pada teks atau dokumen yang sangat diminati. Penelitian ini menguji keefektifan penggunaan analisa ekstraksi fitur global berdasarkan analisa statistik pada perilaku piksel tepi citra biner OFR. Salah satu metode OFR berdasarkan pendekatan global adalah Edge Direction Matrix (EDM).  EDM merupakan sebuah metode baru pada ekstraksi fitur untuk citra biner dimana perilaku piksel tepi antara background putih dan pola hitam diambil sebagai fitur pola. Kemudian nilai tersebut disimpan pada matrik EDM1 dan EDM2  sesuai dengan delapan arah sudut. Dari nilai matrik yang terbentuk kemudian akan dihitung berdasarkan enam persamaan EDM sehingga membentuk 22 nilai fitur. Dalam hal ini dataset yang digunakan untuk pengujian berjumlah 1200 data citra yang berasal dari empat aksara kuno yang ada di Indonesia yaitu Aksara Carakan, Aksara Batak Toba, Aksara Had Lampung dan Aksara Kaganga. Setiap aksara mempunyai empat style font yaitu Bold, Bold-Italic, Italic dan Regular. Penelitian ini menggunakan metode Euclidean Distance dalam proses klasifikasi dan pengenalan tipe tulisan sehingga mendapatkan hasil akurasi pengenalan tertinggi mencapai 83,7% pada skenario ke 5 dengan jumlah data ujicoba sebanyak 208 data. ","Optical Font Recognition (OFR) is a font analysis technique on text or document that is in demand. This study examines the effectiveness of using global feature extraction analysis that is based on a statistical analysis of the behavior of the edge pixels of binary image OFR. One of OFR methods that is based on a global approach is Edge Direction Matrix (EDM). EDM is a new method of feature extraction for binary image in which the behavior of edge pixels between a white background and black pattern is taken as a feature pattern. Then, the value is stored in the matrix EDM1 and EDM2 that in accordance with the eight corner directions. From the value of matrix that is formed then it will be calculated based on the six equalities EDM with the result that form 22 feature values. In this case, the dataset used for testing amount to 1200 image data from four ancient letters of the alphabet that exist in Indonesia, they are Carakan, Batak Toba, Had Lampung and Kagang scripts. Each character has four font style, those are Bold, Bold-Italic, Italic and Regular. This study uses Euclidean Distance in the process of classification and recognition of the writing type to get the highest recognition accuracy that reaches 83.7% on the fifth scenario with the amount of try-out data as many 208 data."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+AUTO LEVELING BERBASIS FINITE STATE MACHINE (FSM) PADA GAME PEMBELAJARAN BAHASA INGGRIS,Penulis : Syafrial Nur Maulana,"Dosen Pembimbing I : Arik Kurniawati, S.Kom.,M.T.","Dosen Pembimbing II :Ari Kusumaningsih, S.T., M.T.","Pengetahuan tentang bahasa Inggris pada jaman globalisasi saat ini sangatlah penting dan menjadi salah satu sarana untuk berkompetisi di segala bidang. Namun demikian, seringkali proses pembelajaran tidak dapat berjalan dengan lancar dikarenakan kurangnya metode pembelajaran yang kurang interaktif. Berangkat dari permasalahan tersebut maka dibangunlah sebuah game yang berunsur edukasi. Game berunsur edukasi harusnya menyenangkan dan tidak terlalu mudah atau terlalu sulit dimainkan  salah satunya dengan penerapan Artifical Intelegent (kecerdasan buatan). Dalam penelitian ini adalah bagaimana pemain mendapatkan tantangan (soal) sesuai dengan kemampuannya (pelevelan mandiri/auto leveling). Sehingga pemain tidak merasa frustasi (jika soalnya terlalu sulit) atau bosan (jika soalnya terlalu mudah). Metode yang dapat digunakan untuk membuat game yang mempunyai pelevelan mandiri adalah metode Finite State Machine (FSM) dan seluruhnya akan diimplementasikan kedalam game engine XNA. Dalam game pembelajaran bahasa Inggris ini terdapat speaking dan reading yang akan memanfaatkan teknologi speech recognition yang terdapat didalam XNA game studio. Dengan melakukan uji coba sistem kepada responden menghasilkan beberapa hal menjadikan game sebagai salah satu media pembelajaran, terciptanya game yang menarik dan menjadi game yang adaptif dengan penerapan perlevelan mandiri. Penggunaan speech recognition dapat meningkatkan kemampuan berbicara dalam bahasa Inggris. 
+
+Kata Kunci : Education Game, Automatic Leveling, FSM (Finite State Machine), XNA game engine, Speech Recognition.
+","Understanding of English language in this globalization era is very important and become one of the tools to compete in all areas. However, often learning process can not proceed smoothly because less of the interactive learning methods. By that problem, an educational game was created. An educational game should be fun and not too easy or too difficult to play. And one of them are applying the artificial intelligence. In this research is how the players get a challenge (questions) according to their ability (self Leveling / auto leveling), so they will not feel frustrated (if the questions are too difficult) or bored (if the questions are too easy). The method that can be used to create a game that have independent Leveling is Finite State Machine (FSM) methode and will be implemented into the entire XNA game engine. In this English learning game there are “speaking”  and  “reading”  that will utilize speech recognition technology contained within the XNA game studio. By testing the system to the respondent, it produces that the game become one of the learning tools, creating an exciting and adaptive game with applying an independent level. Using speech recognition can increase the ability to speak in English.
+
+Key Words : Education Game, Automatic Leveling, FSM (Finite State Machine), XNA game engine, Speech Recognition.
+"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"Implementasi Peramalan Penjualan Produk STARFOOD Menggunakan Metode Moving Average (MA) Dan Single Exponential Smoothing (SES) (Studi Kasus : CV. Wira Usaha Bugar, Kec. Tragah, Kab. Bangkalan)",Penulis : Uhdi Sony Pudiardana,"Dosen Pembimbing I : Achmad Jauhari, S.T., M.Kom.","Dosen Pembimbing II :Sigit Susanto Putro, S.Kom., M.Kom.","Salah satu komponen penting yang menunjang operasi perusahaan adalah kegiatan memprediksi jumlah penjualan untuk periode selanjutnya. Dengan prediksi yang baik dapat dibuat rencana kerja perusahaan lebih efektif dan efisien. Sehingga dapat meminimalisir terjadinya kelebihan stok barang di gudang yang menyebabkan kerugian bagi perusahaan. Penelitian ini mengidentifikasi pola data penjualan produk STARFOOD di C.V. Wira Usaha Bugar Kecamatan Tragah, Kabupaten Bangkalan. agar mendapatkan metode peramalan yang terbaik berdasarkan pola data penjualan penjualan produk. Oleh karena itu dibutuhkan implementasi yang dapat memprediksi jumlah penjualan tiap minggunya agar perusahaan mendapatkan keuntungan yang maksimal. Dari beberapa hasil tes perhitungan peramalan yang telah dilakukan dapat diambil kesimpulan bahwa proses peramalan penjualan produk STARFOOD menggunakan metodeMoving Average (MA) lebih baik dari pada metode Single Exponential Smoothing (SES), dengan rata-rata bergerak m=12 dan menghasilkan MAPE 12,51%  dari semua produk untukstudikasusdi CV. Wira Usaha Bugar Kec. Tragah, Kab. Bangkalan.","One of the essential components that support the company's operations is the work of predicting the amount of sales for the next period. With a good prediction, can giving the company's more effective and efficient work plan. So as to minimize the occurrence of excess inventory in the warehouse which causes harm to the company.  This study identifies patterns of product sales data STARFOOD CV Wira Usaha Bugar District of Tragah, Bangkalan. In order to get the best forecasting method based on the pattern of sales data product. It is therefore necessary that the implementation can predict the number of sales per week for the company to get the maximum benefit. From the results of tests for the prediction that has been done concluded the process of STARFOOD product sales forecasting using Moving Average (MA) is better than the Single Exponential Smoothing (SES) methods, with moving average m = 12 and generate MAPE 12.51 % of all products for the case study at CV. Wira Usaha Bugar  District of Tragah, Bangkalan. "
+,,,,,
+,,,,,
+,,,,,
+PERANCANGAN ZUCARA SEBAGAI MEDIA PEMBELAJARAN CAPOEIRA BERBASIS ANDROID,Penulis : Wahyu Hakim Fiddin,"Dosen Pembimbing I : Cucun Very Angkoso, S.T., M.T","Dosen Pembimbing II :Bain Khusnul Khotimah, S.T., M.Kom","Pembelajaran/Tutorial pada perangkat selular lebih praktis dibandingkan dengan pembelajaran konvensional tatap muka, karena pengguna dapat belajar dengan fleksibel dimana saja tanpa adanya batasan ruang dan waktu. Pembelajaran mobile dapat memberikan kemudahan dalam memahami sesuatu tanpa mengganggu hal-hal yang berhubungan dengan manusia .
+Capoeira sebagai salah satu kebudayaan populer di dunia telah merebut hati penggemarnya dari berbagai kalangan usia, gender, kultur dan lain sebagainya. Karena Capoeira terdapat nilai universal yang mampu menjadikan satu dalam perbedaan, terlebih Capoeira dianggap efektif sebagai salah satu gaya hidup sehat dalam unsur sportnya.
+Madura sebuah pulau Indah yang juga tak kalah dalam Capoeira. Disini terdapat suatu kelompok yang fokus dan eksis dalam mempelajari dan mengembangkan Capoeira. Adalah Zungu Capoeira Madura nama dari kelompok ini yang berafiliasi dengan Induknya di Brasil membuat inovasi Zucara sebagai media pembelajarannya. 
+Penulis menggunakan Android sebagai platform media aplikasi ini karena android berbasis open source. Kebutuhan akan media pembelajaran ini diimplementasikan pada perangkat selular yang menggunakan sistem operasi Android versi 2.3 Gingerbread. Harapan dari aplikasi ini adalah pengguna dapat meningkatkan skill Capoeira dengan mengakses langsung dari perangkat selular mereka.
+","Learning / Tutorial on the mobile device is more practical than the conventional face-to-face learning, because the user can learn to flexibly anywhere without the constraints of space and time. Mobile learning can make it easier to understand something without disturbing matters relating to human. 
+Capoeira as one of the popular culture in the world has captured the hearts of fans of all ages, gender, culture and so forth. Because there are universal values ??that Capoeira is able to make a difference in, especially Capoeira considered effectively as one element of a healthy lifestyle in sports. 
+Madura, an island that is equally beautiful in Capoeira. Here there is a focus group and exist in studying and developing Capoeira. Madura Zungu Capoeira is the name of this group is affiliated with The mother in Brazil Zucara make innovation as a learning medium. 
+The author uses Android as a media platform for android application based on open source. The need for a medium of learning is implemented on mobile devices that use the Android operating system version 2.3 Gingerbread. Expectations of this application is that users can increase the skills of Capoeira with access directly from their mobile devices."
+,,,,,
+,,,,,
+,,,,,
+Implementasi Algoritma Enkripsi RSA Untuk Aplikasi Komunikasi Berbasis Teks Menggunakan Bluetooth Pada OS Android,Penulis : Wahyu Tri Suseno,"Dosen Pembimbing I : Cucun Very Angkoso S.T, M.T.","Dosen Pembimbing II :Ari Kusumaningsih S.T, M.T","Perkembangan teknologi komunikasi yang begitu cepat memicu perkembangan teknologi telpon seluler sebagai salah satu alat komunikasi modern. Komunikasi data yang diimplementasikan juga beragam, teks, gambar bahkan suara. Medium yang digunakan-pun kini beragam baik itu internet, local connection hingga bluetooth. Bluetooth dapat dipilih sebagai alternatif medium untuk menghubungkan satu perangkat dengan perangkat lain. Ditambah lagi dengan perkembangan android yang belakangan ini juga semakin pesat semakin memberi kemudahan untuk betukar data melalui bluetooth. Bluetooth mampu menghubungkan perangkat yang satu dengan perangkat lainnya. Ini kemudian memungkinkan antar perangkat dapat saling bertukar atau berkirim data. Namun, dalam proses pengiriman data tersebut tidak ada yang dapat menjamin keamanannya. Hal ini yang kemudian membuat proses enkripsi menjadi hal yang penting. Data yang dikirim terlebih dahulu dikodekan sedemikian rupa hingga hanya dengan kunci tertentu kode tersebut dapat dibaca. RSA kemudian muncul sebagai salah satu alternatif algoritma yang dapat digunakan menangani proses enkripsi tersebut. RSA memiliki teknik pemfaktoran yang cukup rumit, hal ini membuat tingkat keamanannya cukup tinggi. Selain itu, RSA juga cocok diaplikasikan dalam platform mobile karena memiliki struktur yang asimetris sehingga tidak terlalu membebani sistem yang dimiliki oleh perangkat mobile tersebut. Pengujian aplikasi ini sudah teruji melalui perhitungan manual dan dari pengambilan dua device yang berbeda. ","Development of communication technology is rapidly trigger the development of mobile phone technology as one means of modern communication. Data communication is implemented also varied, text, images and even sound. Medium is used-it was now a good variety internet, local connection to bluetooth. Bluetooth can be chosen as an alternative medium to connect one device with another device. Coupled with the recent development of android is also growing rapidly more and provide convenience for betukar data via bluetooth.Bluetooth devices are able to connect one with the other devices. This then enables inter-device to exchange or send data. However, in the process of sending data no one can guarantee safety. This then makes the encryption process becomes important. First data sent coded such that only the specific key code can be read. RSA later emerged as one of the alternative algorithm that can be used to handle the encryption process.RSA has a factoring technique is quite complicated, it makes quite a high level of security. In addition, RSA is also properly used in the mobile platform because it has an asymmetric structure so as not to overload the system owned by the mobile device. Testing of these applications have been tested through manual calculations and of taking two different devices. "
+,,,,,
+Implementasi Jena dan SPARQL untuk Optimalisasi Pencarian pada Semantik Web,Penulis : Yanuari Dwi Prianto,"Dosen Pembimbing I : Fika Hastarita R, ST., M.Eng","Dosen Pembimbing II :Iwan Santosa, ST., MT","Search engine saat ini menggunakan mekanisme temu balik informasi dengan hasil yang belum optimal, dikarenakan proses pencarian dilakukan dengan mencocokkan query dengan kata pada konten, serta pembobotan tanpa memperhitungkan relasinya, juga proses pencarian klasik memakai acuan dokumen hypertext yang tidak terstruktur dan masih berupa bahasa alami. Beberapa permasalahan tersebut menyebabkan proses pencarian tidak akurat sesuai dengan kata kunci yang dimasukkan. Untuk menjawab permasalahan tersebut telah dikembangkan sebuah sistem yang disebut web semantik. Pada mekanisme web semantik, proses pencariannya menggunakan dokumen yang sudah terstruktur dan memiliki kemampuan untuk memberikan pengetahuan kepada mesin yaitu Resource Description Framework (RDF). Pada penelitian ini telah dibuat sebuah prototype mesin pencari berbasis web semantik. Teknologi web semantik yang digunakan pada penelitian ini berfokus pada pembuatan dokumen RDF untuk mendeskripsikan metadata menjadi sebuah resource yang memiliki susunan semantik (subjek-predikat-objek) dan menggunakan SPARQL yang mengambil modul ARQ pada Jena Library untuk mekanisme pencariannya. Penelitian ini telah menghasilkan dokumen RDF dari domain detikinet.com sebagai sumber pencarian yang valid sesuai struktur RDF dan standarisasi dokumen RDF dari W3C, juga menghasilkan prototype mesin pencari dengan optimalisasi Jena dan SPARQL yang menghasilkan nilai rata-rata precission 0.52, recall 0.63, f-measure 0.53.","Search engines today use information retrieval mechanism with unoptimal results, because the search process is done by matching the query with a word on the content, as well as the weighting regardless of their relationships, and the search process using the classical reference hypertext documents that are not structured and is still a natural language. Some of these problems lead to inaccurate search process according to the keywords entered. To answer these problems has developed a system called the semantic web. On the mechanism of the semantic web, the search process using a document that is structured and has the ability to impart knowledge to the machine that is Resource Description Framework (RDF). In this research has made a prototype semantic web based search engine. Semantic web technology is used in this study focused on the manufacture of RDF to describe metadata document into a resource that has a semantic structure (subject-predicate-object) and using SPARQL which take modules in Jena ARQ Library for its search mechanism. This research has produced RDF document as a source of domain detikinet.com valid search structure corresponding RDF and RDF documents of the W3C standardization, also produce a prototype search engine optimization with Jena and SPARQL which produces an average value precission 0.52, recall  0.63, f- measure 0:53."
+,,,,,
+Segmentasi Parasit Malaria Dalam Sel Darah Menggunakan Operasi Morfologi Dan Transformasi Watershed,Penulis : Yenni Rahmawati,"Dosen Pembimbing I : Rima Tri Wahyuningrum, S.T.,M.T.","Dosen Pembimbing II :Fitri Damayanti, S.Kom., M.Kom","Malaria disebabkan oleh intraseluler parasit bersel tunggal yang dimiliki genus Plasmodium yang menginfeksi manusia dengan memasuki aliran darah. Dampak malaria secara geografis memiliki tingkat  transmisi tertinggi di daerah tropis dan subtropics, yaitu di negara-negara yang memiliki tingkat pertumbuhan penduduk yang besar (termasuk Indonesia). Pendeteksian parasit malaria dapat dilakukan mencari titik kromatin. Bila tidak ada titik kromatin pada sel darah merah  maka sel darah merah tersebut di anggap sebagai sel darah merah sehat. Pendeteksian titik kromatin secara manual akan memerlukan waktu yang lama. Proses segmentasi diharapkan sebagai langkah pertama untuk memudahkan pendeteksian titik kromatin karena segmentasi merupakan  salah  satu  faktor yang sangat penting dalam analisis suatu gambar. Penelitian ini melakukan segmentasi sel darah merah dengan menggunakan operasi Morfologi, deteksi tepi Canny, dan transformasi Watershed. Data yang digunakan sebanyak 15 data citra dan setiap citra akan diuji dengan empat macam operasi Morfologi kemudian citra hasil Morfologi akan diuji sebanyak 16 kali percobaan dengan parameter masking, sigma, high threshold (HT), dan low threshold (LT) dari deteksi tepi Canny. Hasil pengujian kemudian disegmentasi dengan menggunakan transformasi Watershed. Perhitungan tingkat akurasi dilakukan dengan membandingkan koordinat tiap piksel citra hasil segmentasi dengan citra ground truth  dan menghasilkan nilai rata-rata akurasi sebesar 39.3 %.","Malaria is caused by single celled intracellular parasites that belong to genus Plasmodium which infect human by entering bloodstream. The impact of malaria geographically has the highest transmission level in tropical and subtropical area; those are in countries that have large population growth rate (including Indonesia). Detection of malaria parasites can be conducted by looking for chromatin dots. If there are no chromatin dots  in red blood cells, then the red blood cells is considered as healthy red blood cells. Detection of chromatin dots manually will take a long time. Segmentation process is expected as first step to facilitate the detection of chromatin dots because segmentation is one of factors that is very important in  analysis of an image. This study conducts red blood cell segmentation by using Morphology operations, Canny edge detection and Watershed transformation. The data used are 15 image data and each image will be tested with four different Morphology operations and then image of the Morphology result will be tested 16 times experiment with masking parameter, sigma, high threshold (HT) and low threshold (LT) of Canny edge detection. The test results are then segmented by using Watershed transformation. The calculation of accuracy level is carried out by comparing the coordinates of each image pixel of segmentation results with images of ground truth and producing average of accuracy 39.3%."
+,,,,,
+,,,,,
+,,,,,
+Rancang Bangun Game Quisioner Tes TOEFL Berbasis Komunikasi Multiplayer Menggunakan REST Web Service,Penulis : Yudhistira Putra Mahardhika,"Dosen Pembimbing I : Hermawan. S.T., M.Kom",Dosen Pembimbing II :Cucun Very Angkoso. S.T. M.T,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"IMPLEMENTASI PERAMALAN PENJUALAN MENGGUNAKAN 
+METODE EXPONENTIAL SMOOTHING 
+(Studi Kasus : Penjualan Produk Aksesoris Olahraga di Toko Trend Soccer) ",Penulis : Zayn Firdausi,"Dosen Pembimbing I : Achmad Jauhari, S.T., M.Kom","Dosen Pembimbing II :Sigit Susanto Putro, S.Kom., M.Kom","Peramalan memperkirakan sesuatu pada waktu-waktu yang akan datang berdasarkan data masa 
+lampau yang dianalisa secara ilmiah, khususnya menggunakan metode perhitungan statistika. 
+Semakin banyak jumlah permintaan konsumen terhadap aksesoris olahraga maka secara 
+otomatis penjualanya akan meningkat pula.hal ini akan tergantung terhadap banyaknya  
+penjualan aksesoris olahraga kepada konsumen.  Selama ini  toko trend soccer  tidak pernah 
+menggunakan sistem peramalan.  Tidak adanya peramalan mengakibatkan kurang efisien 
+terhadap keuntungan toko tersebut karena tidak ada peramalan penjualan tiap mingguannya. 
+oleh karena itu dibutuhkan implementasi peramalan yang bisa memprediksi jumlah penjualan 
+tiap minggunya agar mengetahui besarnya penjualan tiap minggunya Maka untuk meramalkan 
+menggunakan metode Single Exponential Smoothing, dan Double Exponential Smoothing dan 
+diterapkan pada tools winqsb, Program WinQSB merupakan program komputer yang dapat 
+melakukan peramalan berkaitan dengan data-data berpola konstan, trend atau musiman, dengan 
+masing-masing dari pola data tersebut menggunakan metode dalam WinQSB yang berbeda. 
+Dalam pola-pola tersebut juga terdapat metode-metode yang ada.Dari hasil peramalan yang 
+dilakukan  menggunakan metode  single exponential smoothing dan double exponential 
+smoothing  dengan nilai  ? 0,1,  ? 0,3, ? 0,5.  diperoleh hasil terbaik dengan nilai MSE dan 
+MAPE terkecil dengan nilai rata-rata MSE sebesar 62.64  dan nilai MAPE sebesar 12.64%. 
+Kata kunci : Peramalan,  Single Exponential Smooting (SES), Double Exponential Smooting 
+(DES), Mean Square Error (MSE). 
+ ","Forecasting predict something on the future based on past data that analysed scientifically, 
+especially using statistics counting methods. Many the consumers request the sport accessoris, 
+so automatically sale will also increse. This thing will depend on the many sales of the sport 
+accessoris for the concumer. During trend soccer  shop never using forecasting system.  The 
+lack of forecasting results in less efficient against the profits of the store because there is not 
+any weekly sales forecasting.  therefore needed implementation forecasting can predict the 
+number of sales each week in order to determine the amount of sales each week.  So to predict 
+using Single Exponential Smoothing methode, and Double Exponential Smoothing methode 
+and applying for WinQSB application. WinQSB program is the computer program that can do 
+forecasting involve with datas constant model, trend or seasonal with each data model using 
+different methode in WinQSB. In that models data exits methodes.  From the results of 
+forecasting is done using the method of single exponential smoothing and double exponential 
+smoothing with ? values of 0.1, ? 0.3, ? 0.5.  it obtained the best result with MSE  value and 
+smallest MAPE with average value MSE 62.64 and MAPE score 12,64%. 
+Keywords: forecasting,  Single Exponential Smooting (SES),  Double Exponential Smooting 
+(DES), Mean Square Error (MSE). "
+,,,,,
+IMPLEMENTASI ALGORITMA ENKRIPSI DES UNTUK APLIKASI MOBILE CHAT PADA OS ANDROID,Penulis : Zhomi Fero Anista,Dosen Pembimbing I : Cucun Very Angkoso S.T. M.T,Dosen Pembimbing II :Ari Kusumaningsih S.T. M.T.,"Pengiriman informasi melalui jaringan elektronik dalam permasalahan ini adalah chatting dengan media server memiliki kerentanan dalam keamanan data yang dikirimkan . Layanan tersebut diketahui memiliki beberapa kelemahan, yaitu kelemahan terhadap masalah keamanan sistem. Kelemahan itu dikarenakan data yang dikirim kedalam server menggunakan koneksi dengan jaringan global sehingga lebih rentan terhadap serangan hacker.Pada penelitian ini untuk menjamin keamanan dan kerahasiaan informasi pada komunikasi yang menggunakan jaringan IP mobile, dilakukan proses enkripsi dan dekripsi terhadap informasi yang akan dikirimkan. Enkripsi dilakukan pada saat pengiriman dengan cara mengkonversi informasi asli menjadi informasi yang terenkripsi sedangkan dekripsi dilakukan pada saat penerimaan dengan cara mengkonversi informasi terenkripsi menjadi informasi asli. Jadi informasi yang dikirimkan selama proses pengiriman adalah data informasi yang terenkripsi, sehingga informasi asli tidak dapat diketahui oleh pihak yang tidak berhak. Informasi asli hanya dapat diketahui oleh penerima dengan menggunakan kunci rahasia.Penggunaan algoritma enkripsi Data Encryption Standard (DES) merupakan upaya untuk mencegah kebocoran data chat ke pihak lain. Sehingga dalam menggunakan aplikasi chat tidak dikhawatirkan terjadinya kebocoran informasi pribadi. Karena berdasarkan hasil uji coba terbukti bahwa cipherteks yang dihasilkan telah sesuai dengan hasil perhitungan menggunakan algoritma enkripsi DES. dan telah diuji menggunakan beberapa aplikasi DES test vector. ","Transmission of information through electronic networks in meaning of chat with the server media has vulnerability security of the data being transmitted. These services are known has several drawbacks and the weakness of the security system issues. Because the data is sent into the server using a global network has vulnerable to hacker’s attacks. to ensure the security and confidentiality of information on communication using mobile IP networks, We are using encryption for the information being transmitted. The Encryption is performed at the time of Transmission by converting the original information into encrypted information. decryption is done by the time when reconverting the encrypted information being original information. So the information is encrypted during the process of sending the data, so that the original information cannot be known by unauthorized parties. Original information can only be known by the receiver using a secret key. Using Data Encryption Standard (DES) algorithm is an attempt to prevent data leakage from chat to the other party. So when using this chat application we no need to worry about the leakage of chat information. Because based on the test results, proved that the output of the cyphertext is match with the results of the DES encryption algorithm manual calculations. And has been tested using several DES test vectors applications."
+,,,,,
+Segmentasi Citra Untuk Menentukan Ukuran Pakaian dengan Menggunakan Metode Naive bayes,Penulis : Septian Yudha Adi Perwira,"Dosen Pembimbing I : Eza Rahmanita, S. T., M. T.","Dosen Pembimbing II :Meidya Koeshardianto, S. Si., M. T.","Unsur estetika dalam berpakaian terkadang menjadi salah satu permasalahan tersendiri bagi sebagian besar orang. Termasuk salah satunya permasalahan menentukan ukuran pakaian agar terlihat sesuai dengan ukuran tubuhnya. Dahulu untuk mendapatkan ukuran pakaian yang sesuai harus dilakukan secara manual menggunakan alat bantu berupa meteran, dengan pemanfaatan teknologi ini dapat menentukan ukuran pakaian yang sesuai dengan mudah.
+Penelitian ini terdiri dari dua tahap yaitu proses segmentasi citra dan pengklasifikasi sesuai ukuran pakaian dengan menggunakan Metode Naïve Bayes. Pada proses segmentasi terdiri dari beberapa langkah, yaitu mengubah citra RGB menjadi Grayscale, dari citra Grayscale ke Biner dengan tresholding menggunakan Otsu, dan dihitung tinggi dan lebar objek, kemudian proses klasifikasi menggunakan metode Naïve Bayes. Metode Naïve Bayes ini digunakan untuk proses pengklasifikasian ukuran pakaian berdasarkan hasil ukur objek. Sehingga pada hasil akhir dapat diketahui hasil ukuran yang sesuai.
+Citra didapat dari 2 cara yaitu, dari webcam/ kamera secara realtime dan file berformat .bmp. Berdasarkan uji coba proses segmentasi konversi dari citra grayscale ke biner dengan menggunakan tresholding otsu lebih memudahkan dalam memisahkan antara objek dengan latar belakang berdasarkan nilai ambang yang telah ditentukan. Setelah didapatkan ukuran objek maka diklasifikasikan dengan menggunakan metode Naïve Bayes. Dengan demikian, penelitian ini dapat dikembangkan lagi dengan metode pembelajaran lainya.
+Kata kunci: Grayscale, Biner, Tresholding, Otsu, Naïve Bayes","Aesthetic elements in a dress sometimes become one of its own problems for most people. Including one problem determines the size of the clothes to make it look according to their size. First to get the size appropriate clothing must be done manually using tools such as tape measure, with the use of this technology can determine clothing sizes that fit easily.
+This study consisted of two phases, namely the process of image segmentation and classifiers in the size of the clothes by using Naïve Bayes method. In the segmentation process consists of several steps, which convert RGB image into grayscale, from Grayscale to binary image by using Otsu tresholding, and the calculated height and width of the object, then the process of Naïve Bayes classification method. Naïve Bayes method is used for the classification process is based on the results of measuring the size of the clothing objects. So that the final result can be seen the results of appropriate size.
+Image obtained from 2 ways, from a webcam / camera in realtime and bmp file format. Based on the test segmentation process of converting a grayscale image to binary using otsu tresholding more ease in separating between objects with the background based on a predetermined threshold value. Having obtained the object size then classified using a Naïve Bayes method. Thus, this study can be developed with other learning methods.
+Keywords: Grayscale, Binary, Tresholding, Otsu, Naïve Bayes"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"PERANCANGAN DAN IMPLEMENTASI SISTEM DATABASE 
+TERDISTRIBUSI MENGGUNAKAN ORACLE STUDI KASUS 
+SIAKAD UNIVERSITAS TRUNOJOYO",Penulis : A.Ubaidillah S.Kom,Dosen Pembimbing I : Budi Setyono M.T,Dosen Pembimbing II :Hermawan S.T,"Sistem  informasi  akademik  (SIAKAD) merupakan  sistem  informasi  yang  berfungsi  menangani pengelolaan  dan  penyajian  data-data  akademik,  yang  oleh pihak  fakultas  SIAKAD  dianggap  sangat  penting  dalam memberikan  pelayanan  mahasiswa  yang  membutuhkan informasi akademik. Di Universitas Trunojoyo telah tersedia SIAKAD,  namun  masih  menggunakan  database  terpusat. Sistem seperti ini memberikan kelebihan yaitu perawatannya mudah  selain  itu  juga  membutuhkan  sedikit  biaya,  namun sistem  tersebut  juga  berpotensi  mengahadapi  kendala-kendala  yaitu  dalam  proses  transaksi  data  karena  padatnya jaringan yang menuju database SIAKAD, kelambatan dalam pemrosesan  respon  query  dikarenakan  data  yang  tersimpan semakin besar dan pemrosesan semakin kompleks, dan  juga memiliki kelemahan dalam hal ketersediaan data. Untuk  itu sistem  seperti  ini  memerlukan  pengembangan  sistem database  yang  lebih  baik  dengan  menggunakan  sistem databases  terdistribusi  pada  masing-masing  fakultas  yang dapat  dijadikan  solusi  bagi  permasalahan  di  atas.  Karena dalam basisdata terdistribusi terdapat keuntungan yang tidak dimiliki oleh basisdata  terpusat yaitu pengawasan distribusi, reability,  availability,  kecepatan  dalam  pemrosesan  query dan otonomi local","Academic information systems (SIAKAD) is an information system that functions to handle the management and presentation of academic data, which by the faculty SIAKAD considered very important in providing students who need academic information. At the  SIAKAD of Trunojoyo University available, but still uses a centralized database. Such systems provide the advantage of easy maintenance but it also requires a small fee, but the system also has the potential to confront the obstacles in the process of transaction data due to network congestion SIAKAD database, delays in processing the query response since the larger the stored data and processing increasingly complex, and also has a disadvantage in terms of data availability. For that such systems require the development of a better database system using a system of distributed databases in each faculty that can be used as a solution to the problems above. Because there are advantages in a distributed database that is not owned by a centralized database that is surveillance of distribution, reability, availability, speed query processing and local autonomy"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+APLIKASI KONTROL DAN MONITORING JARINGAN KOMPUTER BERBASIS MOBILE,"Penulis : M. Basith Ardianto,","Dosen Pembimbing I : Drs. Budi Soesilo, MT","Dosen Pembimbing II :Koko Joni, ST","Berjalannya koneksi jaringan komputer dengan lancar dan tanpa gangguan merupakan harapan seluruh penggunanya,
+terutama pihak yang bertanggung jawab pada bidang itu, yakni administrator jaringan. Namun tidak selamanya koneksi
+jaringan dapat berjalan dengan lancar tanpa adanya gangguan. Kenyataan di lapangan terutama pada jaringan komputer skala
+besar, berpotensi besar terjadi gangguan atau bahkan kerusakan koneksi jaringan komputer.
+Hal ini rata - rata disebabkan banyaknya penggunaan serta padatnya traffic data dalam jaringan komputer itu sendiri.
+Oleh karena itu untuk menjaga bahkan meningkatkan kualitas layanan koneksi jaringan maka diperlukan adanya akses kontrol
+dan monitoring pada level administrator jaringan secara real-time berbasis mobile, yang dapat mengatur dan mengetahui
+informasi tentang koneksi jaringan dan dapat diakses setiap saat.
+Pihak administrator jaringan dituntut untuk terlebih dahulu mengetahui adanya gangguan atau bahkan terputusnya
+koneksi jaringan walaupun administrator tidak berada di tempat kontrol dan monitoring, Dengan adanya sistem kontrol dan
+monitoring berbasis mobile, diharapkan dapat membantu tugas administrator dalam mengontrol dan memantau jaringan serta
+dalam mengambil kebijakan atas node – node yang terkoneksi pada jaringan yakni memanajemen koneksi, port dan bandwidth
+setiap saat dan secara mobile. agar dengan segera dapat melakukan pembenahan ketika terjadi gangguan jaringan sebelum
+pemakai jaringan (klien) melakukan pengaduan atas adanya gangguan.
+Kata Kunci : Administrator Jaringan, Koneksi Jaringan, Akses Kontrol dan Monitoring.",-
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"RANCANG BANGUN APLIKASI PROXY SERVER UNTUK
+ENKRIPSI KODE HTML MENGGUNAKAN
+ALGORITMA BLOWFISH","Penulis : Akhmad Suyandi, S.Kom","Dosen Pembimbing I : Drs. Budi Soesilo, M.T","Dosen Pembimbing II :Hermawan, ST, MT","Web server adalah sebuah perangkat lunak server yang berfungsi
+menerima permintaan HTTP atau HTTPS dari web client dan
+mengirimkan jawaban dalam bentuk halaman-halaman web yang
+umumnya berbentuk dokumen HTML. Dokumen HTML yang dikirim
+merupakan dokumen yang dibentuk dari bahasa markup yang plaintext.
+Artinya, dokumen berisi kode-kode HTML murni tanpa proses enkripsi.
+Tujuan dari penelitan ini adalah membuat sebuah aplikasi proxy
+server yang menerima permintaan HTTP dari web client dan
+meneruskannya ke web server. Kemudian aplikasi ini akan menerima
+respon dari server dan melakukan proses enkripsi pada dokumen HTML
+terlebih dahulu. Sehingga dokumen HTML yang dikirim kepada web
+client sudah berbentuk dokumen HTML yang terenkripsi. Web client
+disini bisa berupa aplikasi seperti Internet Explorer, Mozilla Firefox,
+atau Opera. Aplikasi-aplikasi tersebut biasa dikenal dengan sebutan web
+browser.
+Ketika web browser menerima dokumen HTML yang terenkripsi
+dari aplikasi proxy server, maka JavaScript Engine yang ada di web
+browser akan melakukan proses dekripsi sekaligus rendering sehingga
+dokumen akan ditampilkan sesuai dengan aslinya. Namun apabila kode
+dari dokumen HTML tersebut dilihat melalui menu view source yang
+ada di web browser akan didapatkan dokumen HTML yang tetap
+terenkripsi.","Web server is a server software functioning to receive HTTP or HTTPS requests from web clients and send the
+answer in a form of web pages which are commonly in HTML documents. The sent HTML documents are documents created
+from plaintext markup language; that are documents consisting of pure HTML codes without encryption process. This study
+aims to create a proxy server application receiving HTTP requests from web clients and sending them to the web servers.
+Then, the requests will be received by the application through the server to be encrypted. So, the HTML documents sent to the
+web clients are encrypted HTML documents. The web clients used here could be applications such as Internet Explorer,
+Mozilla Firefox, or Opera. The applications are commonly termed web browsers. As the web browsers receive the encrypted
+HTML documents from the proxy server application, JavaScript Engines in the web browsers will decrypt and render the
+documents so they appear as the original. However, if the HTML document codes are viewed through view source menu in the
+web browser, the HTML documents will still be encrypted."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
